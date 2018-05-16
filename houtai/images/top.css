@@ -1,0 +1,98 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #222;
+    background: #fafafa;
+}
+
+#logo {
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 微软雅黑;
+    color: #ffffff;
+}
+
+.topbg {
+    width: 100%;
+    background: #38485A;
+    height: 77px;
+    padding: 8px 0px 0px 0px;
+}
+
+.width120 {
+    width: 120px;
+}
+
+.width80 {
+    width: 80px;
+}
+
+.menubox {
+}
+
+    .menubox li {
+        height: 24px;
+        text-align: center;
+        color: #ffffff;
+        margin-right: 5px;
+        line-height: 24px;
+        float: left;
+        cursor: pointer;
+        background-color: #44556A; /*#515C6F;*/
+        display: block;
+    }
+
+        .menubox li a {
+            text-decoration: none;
+            height: 24px;
+            line-height: 24px;
+            display: block;
+            color: #ffffff;
+        }
+
+    .menubox .selected {
+        font-weight: bold;
+        color: #FB9337;
+        background-color: #E9E8EB;
+        cursor: pointer;
+    }
+
+.childlink {
+    margin: 0;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+    .childlink a {
+        font-size: 12px;
+        color: #ffffff;
+    }
+
+        .childlink a:link {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .childlink a:visited {
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .childlink a:hover {
+            text-decoration: underline;
+            color: #0066FF;
+        }
+
+        .childlink a:active {
+            text-decoration: none;
+            color: #ffffff;
+        }
