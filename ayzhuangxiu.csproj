@@ -112,6 +112,7 @@
     <Content Include="css\case_list.css" />
     <Content Include="css\common.css" />
     <Content Include="css\db_style.css" />
+    <Content Include="css\faencc.css" />
     <Content Include="css\form.css" />
     <Content Include="css\idangerous.swiper.css" />
     <Content Include="css\index.css" />

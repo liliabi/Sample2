@@ -55,7 +55,7 @@ namespace Kuaizhuang
             sb.AppendLine("                   </a>");
             sb.AppendLine("              </div>");
             sb.AppendLine("              <div class=\"shj-footer-top-center-tel\">");
-            sb.AppendLine("                  <img src=\"picture/footer_bottom_1.png\" />");
+            sb.AppendLine("                  <img src=\"/picture/footer_bottom_1.png\" />");
             sb.AppendLine("                  <p style=\"font-weight: bold; font-size: 30px; color: #fff; margin: 10px auto; text-align: center;\">");
             sb.AppendLine("                      400-7777-8888");
             sb.AppendLine("                  </p>");

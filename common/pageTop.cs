@@ -30,10 +30,10 @@ namespace Kuaizhuang
 
             index_top.title_text = "别墅定制家装";
             index_top.subtitle_text = "打/造/精/品/别/墅/家/装";
-            index_top.logo_pic_right_tel = "picture/phone-number.png";
+            index_top.logo_pic_right_tel = "/picture/phone-number.png";
             index_top.logo_pic_right_tel_first = "400-XXXX-XXXX";
             index_top.logo_pic_right_tel_second = "售后热线：0769-XXXXXXX";
-            index_top.logo_pic_right_erweima = "picture/erweima_header.png";
+            index_top.logo_pic_right_erweima = "/picture/erweima_header.png";
             return loadingTop(index_top).ToString();
         }
 
