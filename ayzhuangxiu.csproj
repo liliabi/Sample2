@@ -113,6 +113,7 @@
     <Content Include="css\common.css" />
     <Content Include="css\db_style.css" />
     <Content Include="css\faencc.css" />
+    <Content Include="css\faenza.com.cn.css" />
     <Content Include="css\form.css" />
     <Content Include="css\idangerous.swiper.css" />
     <Content Include="css\index.css" />
@@ -1329,6 +1330,7 @@
     <Content Include="inc\upload_json.ashx" />
     <Content Include="fonts\iconfont.ttf" />
     <Content Include="fonts\iconfont.woff" />
+    <Content Include="js\faenza.com.cn.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
