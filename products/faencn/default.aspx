@@ -5,10 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="../../css/common.css" rel="stylesheet" />
-    <link href="../../css/faenza.com.cn.css" rel="stylesheet" />
-    <script src="../../js/jquery-1.11.3.min.js"></script>
-    <script src="../../js/faenza.com.cn.js"></script>
+    <link href="/css/common.css" rel="stylesheet" />
+    <link href="/css/faenza.com.cn.css" rel="stylesheet" />
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="/js/faenza.com.cn.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -25,8 +25,8 @@
                     </div>
                     <div id="tempDiv" class="touchslider-viewport" style="overflow: hidden; position: relative; height: 323.901px;">
                         <div style="width: 100000px; position: absolute; left: 0px; height: 324px;">
-                            <div class="touchslider-item" style="background: url(../../upfile/faenzacomcnproduction.jpg) center center no-repeat; position: absolute; left: 0px;">
-                                <img src="../../upfile/faenzacomcnproduction.jpg" alt="2" style="width: 1349px;" />
+                            <div class="touchslider-item" style="background: url(/upfile/faenzacomcnproduction.jpg) center center no-repeat; position: absolute; left: 0px;">
+                                <img src="/upfile/faenzacomcnproduction.jpg" alt="2" style="width: 1349px;" />
                             </div>
                         </div>
                     </div>
