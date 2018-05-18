@@ -174,14 +174,14 @@ a.home_clickmore{ width:120px; line-height:36px; height:36px; display:block; bac
 .pro_dh ul li a:hover .tb{ background-position:bottom;}
 .pro_dh ul li a.hover .tb{ background-position:bottom;}
 .pro_dh ul li .tb{ height:96px; display:block; margin-bottom:8px;}
-.pro_dh ul li .tb1{ background:url(../images/pro_type_fu1.png) no-repeat center top;}
-.pro_dh ul li .tb2{ background:url(../images/pro_type_fu2.png) no-repeat center top;}
-.pro_dh ul li .tb3{ background:url(../images/pro_type_fu5.png) no-repeat center top;}
-.pro_dh ul li .tb4{ background:url(../images/pro_type_fu4.png) no-repeat center top;}
-.pro_dh ul li .tb5{ background:url(../images/pro_type_fu3.png) no-repeat center top;}
-.pro_dh ul li .tb6{ background:url(../images/pro_type_fu7.png) no-repeat center top;}
-.pro_dh ul li .tb7{ background:url(../images/pro_type_fu6.png) no-repeat center top;}
-.pro_dh ul li .tb8{ background:url(../images/pro_type_fu8.png) no-repeat center top;}
+.pro_dh ul li .tb1{ background:url(/images/pro_type_fu1.png) no-repeat center top;}
+.pro_dh ul li .tb2{ background:url(/images/pro_type_fu2.png) no-repeat center top;}
+.pro_dh ul li .tb3{ background:url(/images/pro_type_fu5.png) no-repeat center top;}
+.pro_dh ul li .tb4{ background:url(/images/pro_type_fu4.png) no-repeat center top;}
+.pro_dh ul li .tb5{ background:url(/images/pro_type_fu3.png) no-repeat center top;}
+.pro_dh ul li .tb6{ background:url(/images/pro_type_fu7.png) no-repeat center top;}
+.pro_dh ul li .tb7{ background:url(/images/pro_type_fu6.png) no-repeat center top;}
+.pro_dh ul li .tb8{ background:url(/images/pro_type_fu8.png) no-repeat center top;}
 
 #fu_type{padding-right:230px;}
 .xuan_fu_type{ border-bottom:solid 1px #eeeeee; min-height:50px; height:auto; _height:50px; background:url(../images/fu_type_line.jpg) repeat-y 141px center; position:relative;}

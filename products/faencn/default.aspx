@@ -68,7 +68,7 @@
                 <div class="news_loadingDiv">
                     <div class="b_pic add_pic" id="f_right">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2545348" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrURFqZOq2yAAWp420ZyFA074.png" class="LazyLoad" data-original="/kps01/M00/68/79/wKiAiVrURFqZOq2yAAWp420ZyFA074.png" style="display: inline;"></a><div class="name">
+                            <img src="/upfile/F3M9025SC.png" class="LazyLoad" style="display: inline;" /></a><div class="name">
                                 <div>F3M9025SC</div>
                                 <div class="en_font"></div>
                                 <div class="buy_a"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2545348" target="_blank">立即购买 &gt;&gt;</a></div>
@@ -77,37 +77,44 @@
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2545321" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrUP9XOSNdgAAZKANC8lp0773.png" class="LazyLoad" data-original="/kps01/M00/68/77/wKiAiVrUP9XOSNdgAAZKANC8lp0773.png" style="display: inline;"><div class="name">F1E9022C</div>
+                            <img src="/upfile/F1E9022C.png" class="LazyLoad" style="display: inline;" />
+                            <div class="name">F1E9022C</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2543203" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrLHAK4ocdWAAGEvGBtrus998.png" class="LazyLoad" data-original="/kps01/M00/67/AC/wKiAiVrLHAK4ocdWAAGEvGBtrus998.png" style="display: inline;"><div class="name">F3C9022C</div>
+                            <img src="/upfile/F3C9022C.png" class="LazyLoad" style="display: inline;" />
+                            <div class="name">F3C9022C</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2543183" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrLGUeO1_8gAARWg8MyVE0420.png" class="LazyLoad" data-original="/kps01/M00/67/AB/wKiAiVrLGUeO1_8gAARWg8MyVE0420.png" style="display: inline;"><div class="name">F7T9022C</div>
+                            <img src="/upfile/F7T9022C.png" class="LazyLoad" style="display: inline;" />
+                            <div class="name">F7T9022C</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542487" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrEigzeBtyQAAXEZNT7o4g164.png" class="LazyLoad" data-original="/kps01/M00/67/35/wKiAiVrEigzeBtyQAAXEZNT7o4g164.png"><div class="name">FL25P21</div>
+                            <img src="/upfile/FL25P21.png" class="LazyLoad" />
+                            <div class="name">FL25P21</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542485" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrEiUzs-PZZAAclMSwS5_k618.png" class="LazyLoad" data-original="/kps01/M00/67/35/wKiAiVrEiUzs-PZZAAclMSwS5_k618.png"><div class="name">FL25P42</div>
+                            <img src="/upfile/FL25P42.png" class="LazyLoad" />
+                            <div class="name">FL25P42</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542266" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrDRkiL3RJpAAGSF9lqybA701.png" class="LazyLoad" data-original="/kps01/M00/67/1F/wKiAiVrDRkiL3RJpAAGSF9lqybA701.png"><div class="name">FL18D42A</div>
+                            <img src="/upfile/FL18D42A.png" class="LazyLoad" />
+                            <div class="name">FL18D42A</div>
                         </a></div>
                     </div>
                     <div class="b_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542265" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrDRH3PMX4QAAG452PuYR8511.png" class="LazyLoad" data-original="/kps01/M00/67/1E/wKiAiVrDRH3PMX4QAAG452PuYR8511.png"></a><div class="name">
+                            <img src="/upfile/FL23L31-1.png" class="LazyLoad" />
+                                </a><div class="name">
                                 <div>FL23L31-1</div>
                                 <div class="en_font"></div>
                                 <div class="buy_a"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542265" target="_blank">立即购买 &gt;&gt;</a></div>
@@ -116,38 +123,44 @@
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542263" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrDQwuiyeFiAAFs5qD08C8347.png" class="LazyLoad" data-original="/kps01/M00/67/1D/wKiAiVrDQwuiyeFiAAFs5qD08C8347.png"><div class="name">FL23S31-1</div>
+                            <img src="/upfile/FL23S31-1.png" class="LazyLoad" />
+                            <div class="name">FL23S31-1</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542244" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrDNCfuU1MMAANp7oXzm24958.png" class="LazyLoad" data-original="/kps01/M00/67/19/wKiAiVrDNCfuU1MMAANp7oXzm24958.png"><div class="name">FV017H</div>
+                            <img src="/upfile/FV017H.png" class="LazyLoad" />
+                            <div class="name">FV017H</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542236" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrDLnyJdxBAAAWzrrFxKF0201.png" class="LazyLoad" data-original="/kps01/M00/67/18/wKiAiVrDLnyJdxBAAAWzrrFxKF0201.png"><div class="name">FV001Q-1</div>
+                            <img src="/upfile/FV001Q-1.png" class="LazyLoad" />
+                            <div class="name">FV001Q-1</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542233" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrDKUb3372aAAHM1TMy0XQ593.png" class="LazyLoad" data-original="/kps01/M00/67/18/wKiAiVrDKUb3372aAAHM1TMy0XQ593.png"><div class="name">FW026Q</div>
+                            <img src="/upfile/FW026Q.png" class="LazyLoad" />
+                            <div class="name">FW026Q</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542231" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrDJMHuhL47AAGKcPb427g100.png" class="LazyLoad" data-original="/kps01/M00/67/17/wKiAiVrDJMHuhL47AAGKcPb427g100.png"><div class="name">FC010A18-1</div>
+                            <img src="/upfile/FC010A18-1.png"" class="LazyLoad" />
+                            <div class="name">FC010A18-1</div>
                         </a></div>
                     </div>
                     <div class="s_pic add_pic">
                         <div class="pic_con"><a href="http://www.faenza.com.cn/displayproduct.html?proID=2542110" target="_blank">
-                            <img src="./法恩莎卫浴官网_卫浴十大品牌_意大利设计品牌_files/wKiAiVrB_J3ooBfyAAKv-EhWsJY985.png" class="LazyLoad" data-original="/kps01/M00/67/0A/wKiAiVrB_J3ooBfyAAKv-EhWsJY985.png"><div class="name">FC011A18-1</div>
+                            <img src="/upfile/FC011A18-1.png" class="LazyLoad" />
+                            <div class="name">FC011A18-1</div>
                         </a></div>
                     </div>
                 </div>
 
                 <div class="clear"></div>
-                <div class="fpage_status view_more" style="text-align: center; cursor: pointer;">下拉加载更多请稍候...</div>
+                <%--<div class="fpage_status view_more" style="text-align: center; cursor: pointer;">下拉加载更多请稍候...</div>--%>
                 <div class="fpageNum">
                     <font class="" color="">首 页</font>&nbsp;&nbsp;
                     <font class="" color="">上一页</font>&nbsp;&nbsp;

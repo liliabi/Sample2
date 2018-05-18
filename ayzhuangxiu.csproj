@@ -805,6 +805,120 @@
     <Content Include="products\faencn\default.aspx" />
     <Content Include="products\jycom\default.aspx" />
     <Content Include="products\wfcom\default.aspx" />
+    <Content Include="upfile\2018050616500893.png" />
+    <Content Include="upfile\2018050722475160.png" />
+    <Content Include="upfile\2018050808414106.png" />
+    <Content Include="upfile\2018050808442804.png" />
+    <Content Include="upfile\2018051009252318.png" />
+    <Content Include="upfile\2018051009293725.png" />
+    <Content Include="upfile\2018051009305393.png" />
+    <Content Include="upfile\2018051009310057.png" />
+    <Content Include="upfile\2018051009311266.png" />
+    <Content Include="upfile\2018051009311845.png" />
+    <Content Include="upfile\2018051009312557.png" />
+    <Content Include="upfile\2018051009313597.png" />
+    <Content Include="upfile\2018051009314544.png" />
+    <Content Include="upfile\2018051009315693.png" />
+    <Content Include="upfile\2018051419385313.jpg" />
+    <Content Include="upfile\2018051419390894.jpg" />
+    <Content Include="upfile\2018051419392471.jpg" />
+    <Content Include="upfile\2018051419393609.jpg" />
+    <Content Include="upfile\2018051419511587.png" />
+    <Content Include="upfile\2018051518143251.jpg" />
+    <Content Include="upfile\2018051518145159.jpg" />
+    <Content Include="upfile\2018051518150242.jpg" />
+    <Content Include="upfile\2018051518152032.JPG" />
+    <Content Include="upfile\2018051518172460.jpg" />
+    <Content Include="upfile\2018051518174096.jpg" />
+    <Content Include="upfile\2018051518174988.jpg" />
+    <Content Include="upfile\2018051518175661.jpg" />
+    <Content Include="upfile\2018051518180261.jpg" />
+    <Content Include="upfile\2018051518193229.jpg" />
+    <Content Include="upfile\2018051518195175.jpg" />
+    <Content Include="upfile\2018051518204037.jpg" />
+    <Content Include="upfile\2018051518211710.jpg" />
+    <Content Include="upfile\2018051518235353.jpg" />
+    <Content Include="upfile\2018051518241318.jpg" />
+    <Content Include="upfile\2018051518241999.jpg" />
+    <Content Include="upfile\2018051518242656.jpg" />
+    <Content Include="upfile\2018051518243270.jpg" />
+    <Content Include="upfile\2018051518243889.jpg" />
+    <Content Include="upfile\2018051518244493.jpg" />
+    <Content Include="upfile\2018051518254247.png" />
+    <Content Include="upfile\2018051518260535.jpg" />
+    <Content Include="upfile\2018051518265839.png" />
+    <Content Include="upfile\2018051518272117.jpg" />
+    <Content Include="upfile\2018051518272771.jpg" />
+    <Content Include="upfile\2018051518281663.png" />
+    <Content Include="upfile\2018051518283740.jpg" />
+    <Content Include="upfile\2018051518284380.jpg" />
+    <Content Include="upfile\2018051519291310.png" />
+    <Content Include="upfile\2018051519295984.png" />
+    <Content Include="upfile\2018051519310725.png" />
+    <Content Include="upfile\2018051519315541.png" />
+    <Content Include="upfile\2018051519330048.png" />
+    <Content Include="upfile\2018051519334341.png" />
+    <Content Include="upfile\2018051519342669.png" />
+    <Content Include="upfile\2018051519360933.png" />
+    <Content Include="upfile\2018051519382420.png" />
+    <Content Include="upfile\2018051519390934.png" />
+    <Content Include="upfile\2018051519410904.png" />
+    <Content Include="upfile\2018051519413782.png" />
+    <Content Include="upfile\2018051519422524.png" />
+    <Content Include="upfile\2018051519430752.png" />
+    <Content Include="upfile\2018051519520489.jpg" />
+    <Content Include="upfile\2018051519534488.jpg" />
+    <Content Include="upfile\2018051519535143.jpg" />
+    <Content Include="upfile\2018051519540006.jpg" />
+    <Content Include="upfile\2018051519540747.jpg" />
+    <Content Include="upfile\2018051519541346.jpg" />
+    <Content Include="upfile\2018051519541961.jpg" />
+    <Content Include="upfile\2018051519542589.jpg" />
+    <Content Include="upfile\2018051519543123.jpg" />
+    <Content Include="upfile\2018051519572947.jpg" />
+    <Content Include="upfile\2018051519575960.png" />
+    <Content Include="upfile\2018051519580907.jpg" />
+    <Content Include="upfile\2018051519582039.jpg" />
+    <Content Include="upfile\2018051519582970.jpg" />
+    <Content Include="upfile\2018051519593356.jpg" />
+    <Content Include="upfile\2018051520002060.jpg" />
+    <Content Include="upfile\2018051520013594.jpg" />
+    <Content Include="upfile\2018051520020203.jpg" />
+    <Content Include="upfile\2018051520020705.jpg" />
+    <Content Include="upfile\2018051520021197.jpg" />
+    <Content Include="upfile\2018051520021771.jpg" />
+    <Content Include="upfile\2018051520022661.jpg" />
+    <Content Include="upfile\2018051520040801.jpg" />
+    <Content Include="upfile\2018051520045759.jpg" />
+    <Content Include="upfile\2018051520050393.jpg" />
+    <Content Include="upfile\2018051520051027.jpg" />
+    <Content Include="upfile\2018051520051543.jpg" />
+    <Content Include="upfile\2018051520052614.jpg" />
+    <Content Include="upfile\aobeier.jpg" />
+    <Content Include="upfile\ayida.jpg" />
+    <Content Include="upfile\F1E9022C.png" />
+    <Content Include="upfile\F3C9022C.png" />
+    <Content Include="upfile\F3M9025SC.png" />
+    <Content Include="upfile\F7T9022C.png" />
+    <Content Include="upfile\faenccproduction.jpg" />
+    <Content Include="upfile\faenzacomcnproduction.jpg" />
+    <Content Include="upfile\FC010A18-1.png" />
+    <Content Include="upfile\FC011A18-1.png" />
+    <Content Include="upfile\FL18D42A.png" />
+    <Content Include="upfile\FL23L31-1.png" />
+    <Content Include="upfile\FL23S31-1.png" />
+    <Content Include="upfile\FL25P21.png" />
+    <Content Include="upfile\FL25P42.png" />
+    <Content Include="upfile\FV001Q-1.png" />
+    <Content Include="upfile\FV017H.png" />
+    <Content Include="upfile\FW026Q.png" />
+    <Content Include="upfile\image\20180506\20180506093516_6745.png" />
+    <Content Include="upfile\kaxibai.jpg" />
+    <Content Include="upfile\laluohui.jpg" />
+    <Content Include="upfile\sangta.jpg" />
+    <Content Include="upfile\shandianmihuang.jpg" />
+    <Content Include="upfile\tulanduo.jpg" />
+    <Content Include="upfile\ziyougediao.jpg" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -1338,9 +1452,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="upfile\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
