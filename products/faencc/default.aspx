@@ -65,7 +65,7 @@
                                         <div class="title"><a href="view/?id=<%#Eval("bId")%>" title="<%#Eval("bTitle")%>" target="_blank"><%#Eval("bTitle")%></a></div>
                                         <div class="line"></div>
                                         <div class="jianshu">
-                                            <p style="TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 3; MARGIN-TOP: 0.5em; FONT-FAMILY: 微软雅黑; MARGIN-BOTTOM: 0.5em; FONT-SIZE: 10.5pt"><%# PaducnSoft.Common.Utils.CutString(PaducnSoft.Common.Utils.DeleteHtml(PaducnSoft.Common.Utils.HtmlDecode(PaducnSoft.Common.StringPlus.NullToString(Eval("bContent")))), 220)%></p>
+                                            <p><%# PaducnSoft.Common.Utils.CutString(PaducnSoft.Common.Utils.DeleteHtml(PaducnSoft.Common.Utils.HtmlDecode(PaducnSoft.Common.StringPlus.NullToString(Eval("bContent")))), 220)%></p>
                                         </div>
                                     </div>
                                 </div>

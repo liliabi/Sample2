@@ -16,7 +16,8 @@ a img { border:none; }
 .float_left { float:left; }
 .float_right { float:right; }
 .inside_banner, .container, .index_intro_banner, .inside_banner, .inside_dh, .intro_licheng, .school_xuetang, .net_online_bg, .last_backtop, #bottom, .last_copy { min-width:1200px; }
-.container { width:1200px; margin:0px auto; padding:0px; text-align:left; }
+/*.container { width:1200px; margin:0px auto; padding:0px; text-align:left; }*/
+.container { min-width:1100px; width:1100px; margin:0px auto; padding:0px; text-align:left; }
 .top_bg { position:fixed !important; width:100%; top:0; left:0; background:#ffffff; _position: absolute; _bottom: auto; _top: expression( eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop + this.offsetHeight -24 : document.body.scrollTop + this.offsetHeight -24);
 z-index:30; box-shadow: 0 3px 40px 3px #eee;  }
 .top_erji { position:absolute; right:6px; top:42%; background:url(../images/common.png) no-repeat; background-position:-300px -75px; background-size:600px; display:none; width:50px; height:40px; }
@@ -1659,3 +1660,13 @@ display:none;
 min-width:100%;
 }
 }
+ .inside_dh { min-width:1100px; min-height:65px; height:auto; _height:65px; line-height:65px; text-align:center; border-bottom:solid 1px #dddddd; background:#f5f5f5; margin-bottom:20px;position: relative;z-index: 9;}
+.inside_dh_l { float:left; }
+.inside_dh ul { }
+.inside_dh ul li { height:67px; line-height:67px; float:left; text-align:center; font-size:15px; position:relative;}
+.inside_dh ul li a { display:block; padding:0 25px; }
+.inside_dh ul li a:hover { border-bottom:solid 1px #950d0f; }
+.inside_dh ul li a.hover { border-bottom:solid 1px #950d0f; }
+.inside_dh ul li dl{display:none; width:100%;position:absolute; top:68px; left:0px; background:#f1f1f1; margin:0px; padding:0px;}
+.inside_dh ul li dl dt{ height:38px; line-height:38px; margin:0px; padding:0px;}
+.inside_dh ul li:hover dl{ display:block;}

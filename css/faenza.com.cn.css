@@ -26,7 +26,7 @@ a img{ border:none;}
 
 .float_right{ float:right;}
 
-.container{ min-width:1145px; width:1145px; margin:0px auto; padding:0px; text-align:left; }
+.container1 { min-width:1100px; width:1100px; margin:0px auto; padding:0px; text-align:left; }
 
 .top_bg{height:160px; background:#25211e; z-index:40; width:100%; position:fixed;  top:0; left:0; _position: absolute; _bottom: auto; _top: expression(eval(document.documentElement.scrollTop));  z-index:30;}
 
@@ -194,16 +194,16 @@ a.home_clickmore{ width:120px; line-height:36px; height:36px; display:block; bac
 .pro_search .search_pk{ width:220px; height:32px; line-height:32px; padding-left:10px; background:#FFF; border:solid 1px #eeeeee; border-right:none;}
 .pro_search input{ vertical-align:middle;}
 
-.pro_con_bg{ background:#bbbbbb; padding:2px 4px;  min-width:1145px;}
-.pro_con_bg .pic_con{ border:solid 4px #bbbbbb;}
+.pro_con_bg{padding:2px 4px;  min-width:1100px;width: 1100px; margin: 0 auto 30px;}
+.pro_con_bg .pic_con{ border:solid 2px #e6e5e5;}
 .pro_con_bg #f_right{ float:right;}
-.pro_con_bg .b_pic{ width:40%; background:#c8c7c5; float:left; display:inline-block; height:744px; text-align:center; position:relative;}
+.pro_con_bg .b_pic{ width:40%; background:#f8f8f8; float:left; display:inline-block; height:744px; text-align:center; position:relative;}
 .pro_con_bg .b_pic .pic_con{height:736px;}
 .pro_con_bg .b_pic img{ width:80%; max-height:80%; margin-top:140px;}
 .pro_con_bg .b_pic .name{ position:absolute; text-align:left; left:70px; font-size:22px; top:60px; z-index:20; width:80%;}
 .pro_con_bg .b_pic .name .en_font{ font-size:14px; text-transform:uppercase; padding:8px 0;}
 .pro_con_bg .b_pic .name .buy_a{ margin-top:15px; font-size:14px;}
-.pro_con_bg .s_pic{ width:20%;  background:#c8c7c5; display:inline-block; height:372px; text-align:center; float:left;}
+.pro_con_bg .s_pic{ width:20%;  background:#f8f8f8; display:inline-block; height:372px; text-align:center; float:left;}
 .pro_con_bg .s_pic img{ width:80%; max-height:80%; margin-top:20px;}
 .pro_con_bg .s_pic .pic_con{height:364px;}
 .pro_con_bg .s_pic .name{ font-size:14px; margin-top:10px;}
@@ -256,12 +256,12 @@ a.home_clickmore{ width:120px; line-height:36px; height:36px; display:block; bac
 .cases_li_con .name{ height:52px; line-height:52px; font-size:14px; text-align:center;}
 
 
-.inside_dh{ height:37px;text-align:center; font-size:16px; border-bottom:solid 1px #dddddd; padding-bottom:20px; margin-bottom:20px; margin-top:20px; position:relative; overflow:hidden;}
+/*.inside_dh{ height:37px;text-align:center; font-size:16px; border-bottom:solid 1px #dddddd; position:relative; overflow:hidden;}
 .inside_dh ul{ }
 .inside_dh ul li{ width:106px; height:35px; line-height:35px; float:left; border:solid 1px #fff; }
 .inside_dh ul li a{ display:block;}
 .inside_dh ul li a:hover{ border:solid 1px #dddddd; background:#c0aa78; color:#FFF;}
-.inside_dh ul li a.hover{ border:solid 1px #dddddd; background:#c0aa78; color:#FFF;}
+.inside_dh ul li a.hover{ border:solid 1px #dddddd; background:#c0aa78; color:#FFF;}*/
 
 
 .inside_content{ min-height:400px; height:auto; _height:400px; padding:25px 0;}
@@ -541,3 +541,14 @@ a.home_clickmore{ width:120px; line-height:36px; height:36px; display:block; bac
     text-align: center;
     display: none;
 }
+
+.inside_dh { min-width:1100px; min-height:65px; height:auto; _height:65px; line-height:65px; text-align:center; border-bottom:solid 1px #dddddd; background:#f5f5f5; margin-bottom:20px;position: relative;z-index: 9;}
+.inside_dh_l { float:left; }
+.inside_dh ul { }
+.inside_dh ul li { height:67px; line-height:67px; float:left; text-align:center; font-size:15px; position:relative;}
+.inside_dh ul li a { display:block; padding:0 25px; }
+.inside_dh ul li a:hover { border-bottom:solid 1px #950d0f; }
+.inside_dh ul li a.hover { border-bottom:solid 1px #950d0f; }
+.inside_dh ul li dl{display:none; width:100%;position:absolute; top:68px; left:0px; background:#f1f1f1; margin:0px; padding:0px;}
+.inside_dh ul li dl dt{ height:38px; line-height:38px; margin:0px; padding:0px;}
+.inside_dh ul li:hover dl{ display:block;}

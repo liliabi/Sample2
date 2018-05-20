@@ -112,9 +112,10 @@ zoom:1; text-align:center; }
 .pro_list .f_pic { float:left; width:550px; height:320px; background:#f8f8f8; overflow:hidden; transform: scale(1, 1); transition: all 0.4s ease-in-out 0s; }
 .pro_list .f_pic img { transform: scale(1, 1); transition: all 0.2s ease-in-out 0s; }
 .pro_list .f_pic .div_con { padding-top:77px; text-align:center; }
-.pro_list .f_pic .div_con .title { font-size:26px; line-height:30px;width:450px; }
+.pro_list .f_pic .div_con .title { font-size:26px; line-height:30px;width:450px; height:30px;}
 .pro_list .f_pic .div_con .line { background:#aaaaaa; width:84px; height:2px; margin:15px auto; }
 .pro_list .f_pic .div_con .jianshu { width:80%; margin:0px auto; margin-top:10px; line-height:26px; font-size:14px; }
+.pro_list .f_pic .div_con .jianshu p{ text-justify: inter-ideograph;text-align: justify;line-height: 3;margin-top: 0.5em;font-family: 微软雅黑;margin-bottom: 0.5em;font-size: 10.5pt;overflow:  hidden; }
  .prof_right .c_pic{ float:right; }
 .pro_search_con { padding:5px 0; height:35px; line-height:33px; font-size:16px; }
 .pro_search_con_Div { float:right; }

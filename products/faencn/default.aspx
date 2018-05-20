@@ -37,7 +37,29 @@
             </div>
 
             <div class="container">
-                <div class="pro_dh">
+                <div class="inside_dh">
+                <div class="container1">
+                    <script type="text/javascript">
+                        $(document).ready(
+                        function () {
+                            $('.inside_dh ul li').hover(
+                                function () {
+                                    $(this).find('a:first').addClass('menu_current');
+                                }, function () {
+                                    $(this).find('a:first').removeClass('menu_current');
+                                }
+                            );
+                        });
+                    </script>
+                    <ul>
+                        <li><a href="./" title="全部产品">全部产品</a>                          
+                        </li>
+                        <asp:Literal ID="ltProdClass" runat="server"></asp:Literal>                       
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                </div>
+                <%--<div class="pro_dh">
                     <ul>
                         <li><a href="http://www.faenza.com.cn/products.html?proTypeID=163809&amp;fid=163809&amp;proTypeName=%E9%99%B6%E7%93%B7%2F%E5%9D%90%E4%BE%BF%E5%99%A8%E7%B3%BB%E5%88%97" title="陶瓷/坐便器系列"><span class="tb tb1"></span>
                             <div>陶瓷/坐便器系列</div>
@@ -65,7 +87,7 @@
                         </a></li>
                     </ul>
                     <div class="clear"></div>
-                </div>
+                </div>--%>
             </div>
             <div class="pro_con_bg">
                 <div class="news_loadingDiv">
