@@ -9,9 +9,12 @@
     <link href="/css/layout.css" rel="stylesheet" />
     <script src="/js/jquery-1.7.2.min.js"></script>
     <script src="/js/common.js"></script>
+    <link href="/images/whir_css.css" rel="stylesheet" type="text/css" />
+    <script src="/images/work.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
         <div class="wrapper">
             <div id="among">
                 <div id="aside">
@@ -137,6 +140,7 @@
                 </div>
             </div>
         </div>
+        <asp:Literal ID="ltFooter" runat="server"></asp:Literal>
     </form>
 </body>
 </html>

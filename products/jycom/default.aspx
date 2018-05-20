@@ -7,9 +7,13 @@
     <title></title>
     <link href="/css/jyjpgcommon.css" rel="stylesheet" />
     <link href="/css/jyjpg.css" rel="stylesheet" />
+    <link href="/images/whir_css.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="/images/work.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
         <div class="jz_case">
             <h2><a href="javascript:void(0);">产品<span>中心</span></a><i>PRODUCT CENTER</i></h2>
 
@@ -55,17 +59,6 @@
                         <span class="fr"><a href="http://www.jyjpg.com/gypbj.html" title="工艺品摆件"></a></span>
                         <a sid="0001,0020,0021" class=" " href="http://www.jyjpg.com/zrxlgybj.html" title="自然系列工艺摆件">自然系列工艺摆件</a>
                         <a sid="0001,0020,0022" class=" " href="http://www.jyjpg.com/ztgybj.html" title="甄陶工艺摆件">甄陶工艺摆件</a>
-                    </dd>
-                </dl>
-                <dl class="clearfix">
-                    <dt class=" " sid="0001,0028"><a href="http://www.jyjpg.com/tjcp.html" title="推荐产品">
-                        <img src="/upfile/jz_case_ico05.gif" alt="推荐产品" />推荐产品：</a></dt>
-                    <dd>
-                        <span class="fr"><a href="http://www.jyjpg.com/tjcp.html" title="推荐产品"></a></span>
-                        <a sid="0001,0028,0033" class=" " href="http://www.jyjpg.com/bszq.html" title="别墅专区">别墅专区</a>
-                        <a sid="0001,0028,0034" class=" " href="http://www.jyjpg.com/jzzq.html" title="家装专区">家装专区</a>
-                        <a sid="0001,0028,0035" class=" " href="http://www.jyjpg.com/xpzq.html" title="新品专区">新品专区</a>
-                        <a sid="0001,0028,0036" class=" " href="http://www.jyjpg.com/rxcp.html" title="热销产品">热销产品</a>
                     </dd>
                 </dl>
             </div>
@@ -255,16 +248,8 @@
             </div>
             <div class="clear"></div>
 
-            <div id="pagerMain" class="apage">
-                <span class="cust_txt">记录总数：33 | 页数：2</span>
-                <a class="oran_pg_fp" href="/product?page=1" title="首页">首页</a>
-                <a class="oran_pg_pp" href="javascript:void(0);" title="上一页">上一页</a>
-                <a href="javascript:;" class="cur">1</a>
-                <a href="/product?page=2" title="第2页">2</a>
-                <a class="oran_pg_np" href="/product?page=2" title="下一页">下一页</a>
-                <a class="oran_pg_lp" href="/product?page=2" title="尾页">尾页</a>
-            </div>
         </div>
+        <asp:Literal ID="ltFooter" runat="server"></asp:Literal>
     </form>
 </body>
 </html>

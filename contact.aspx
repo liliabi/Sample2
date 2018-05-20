@@ -16,17 +16,18 @@
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/about_us.css" />
+    <link rel="stylesheet" href="/images/whir_css.css" />
     <script type="text/javascript" src="js/jquery-1.11.3.min.js">
     </script>
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="index_overflow">
-            <asp:Literal ID="Top" runat="server"></asp:Literal>
-            <asp:Literal ID="Nav" runat="server"></asp:Literal>
+            <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
+            <%--<asp:Literal ID="Nav" runat="server"></asp:Literal>--%>
             <asp:Literal ID="Bdy" runat="server"></asp:Literal>
-            
-            <asp:Literal ID="Footer" runat="server"></asp:Literal>
+
+            <asp:Literal ID="ltFooter" runat="server"></asp:Literal>
         </div>
         <script src="js/swiper.min.js">
             </script>

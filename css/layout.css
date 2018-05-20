@@ -5,7 +5,7 @@
   margin:auto;
 }
 #header,#among,#footer,.width{
-  max-width:1100px;
+  /*max-width:1100px;*/
   margin:auto;
 }
 .header{

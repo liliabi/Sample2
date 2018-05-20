@@ -22,30 +22,21 @@ namespace Kuaizhuang {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Top 控件。
+        /// ltHeader 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal Top;
+        protected global::System.Web.UI.WebControls.Literal ltHeader;
         
         /// <summary>
-        /// Nav 控件。
+        /// ltFooter 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal Nav;
-        
-        /// <summary>
-        /// Footer 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal Footer;
+        protected global::System.Web.UI.WebControls.Literal ltFooter;
     }
 }

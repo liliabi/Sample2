@@ -15,13 +15,15 @@
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/about_us.css" />
+    <link rel="stylesheet" href="/images/whir_css.css" />
     <script src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../images/work.js"></script>
 </head>
 <body id="website" style="position: relative">
     <form id="form1" runat="server">
         <div id="index_overflow">
-            <asp:Literal ID="Top" runat="server"></asp:Literal>
-            <asp:Literal ID="Nav" runat="server"></asp:Literal>
+            <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
+            <%--<asp:Literal ID="Nav" runat="server"></asp:Literal>--%>
             <div class="brand_banner">
                 <img src="picture/au_banner.jpg" alt="" />
             </div>
@@ -38,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <asp:Literal ID="Footer" runat="server"></asp:Literal>
+            <asp:Literal ID="ltFooter" runat="server"></asp:Literal>
         </div>
     </form>
     <script src="js/swiper.min.js">

@@ -7,14 +7,17 @@
     <title></title>
     <link href="/css/common.css" rel="stylesheet" />
     <link href="/css/faenza.com.cn.css" rel="stylesheet" />
+    <link href="/images/whir_css.css" rel="stylesheet" type="text/css" />
     <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="/images/work.js"></script>
     <script src="/js/faenza.com.cn.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
         <div id="index_overflow">
-            <asp:Literal ID="Top" runat="server"></asp:Literal>
-            <asp:Literal ID="Nav" runat="server"></asp:Literal>
+            <%--<asp:Literal ID="Top" runat="server"></asp:Literal>--%>
+            <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
+            <%--<asp:Literal ID="Nav" runat="server"></asp:Literal>--%>
 
             <div class="inside_banner">
                 <div class="clear"></div>
@@ -241,7 +244,8 @@
                 </div>
 
             </div>
-            <asp:Literal ID="Footer" runat="server"></asp:Literal>
+            <%--<asp:Literal ID="Footer" runat="server"></asp:Literal>--%>
+            <asp:Literal ID="ltFooter" runat="server"></asp:Literal>
         </div>
     </form>
 </body>

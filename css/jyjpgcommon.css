@@ -83,8 +83,8 @@ p{ word-spacing:-1.5px;}
 .ser img{display: block;margin-top: 8px; width:28px; height:28px;}
 
 .t_c{height:135px; overflow: hidden;}
-.logo{width:168px;height:98px;margin-top: 16px; overflow: hidden;}
-.logo img{width:168px;height:98px;}
+/*.logo{width:168px;height:98px;margin-top: 16px; overflow: hidden;}
+.logo img{width:168px;height:98px;}*/
 
 .t_c h2{padding:37px 0 0 60px; font-size: 26px; line-height: 32px; color:#d84f6b; overflow: hidden;width:510px; float: left;}
 .t_c h2 span{display: block; font-size: 22px;color:#212121;font-weight: normal;}
@@ -100,7 +100,7 @@ p{ word-spacing:-1.5px;}
 
 /*底部开始*/
 .footWrap{ background:url(Img/Common/fbj.jpg) no-repeat center top; height:314px; overflow:hidden;}
-.footer{height:314px; overflow: hidden;}
+/*.footer{height:314px; overflow: hidden;}*/
 .foot_r{width:1016px; float: left; overflow: hidden;}
 .flogo{width:354px;margin-top: 64px; height:105px; overflow: hidden; float: left; border-right: 1px solid #d9d9d9;}
 .flogo img{width:168px;height:98px;margin-left: 134px;}
