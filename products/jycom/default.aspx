@@ -14,56 +14,29 @@
 <body>
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
-        <div class="jz_case">
-            <h2><a href="javascript:void(0);">产品<span>中心</span></a><i>PRODUCT CENTER</i></h2>
-
-            <div class="list">
-                <dl class="clearfix">
-                    <dt class=" " sid="0001,0002"><a href="http://www.jyjpg.com/bjq.html" title="背景墙">
-                        <img src="/upfile/jz_case_ico01.gif" alt="背景墙" />背景墙：</a></dt>
-                    <dd>
-                        <span class="fr"><a href="http://www.jyjpg.com/bjq.html" title="背景墙"></a></span>
-                        <a sid="0001,0002,0003" class=" " href="http://www.jyjpg.com/xzsf.html" title="新中式风">新中式风</a>
-                        <a sid="0001,0002,0004" class=" " href="http://www.jyjpg.com/xdss.html" title="现代时尚">现代时尚</a>
-                        <a sid="0001,0002,0005" class=" " href="http://www.jyjpg.com/msty.html" title="美式田园">美式田园</a>
-                        <a sid="0001,0002,0006" class=" " href="http://www.jyjpg.com/olfq.html" title="欧陆风情">欧陆风情</a>
-                    </dd>
-                </dl>
-                <dl class="clearfix">
-                    <dt class=" " sid="0001,0007"><a href="http://www.jyjpg.com/jcqm.html" title="集成墙面">
-                        <img src="/upfile/jz_case_ico02.gif" alt="集成墙面" />集成墙面：</a></dt>
-                    <dd>
-                        <span class="fr"><a href="http://www.jyjpg.com/jcqm.html" title="集成墙面"></a></span>
-                        <a sid="0001,0007,0009" class=" " href="http://www.jyjpg.com/zxblmz.html" title="中纤板罗马柱">中纤板罗马柱</a>
-                        <a sid="0001,0007,0023" class=" " href="http://www.jyjpg.com/smdcblmz_1.html" title="实木多层板罗马柱">实木多层板罗马柱</a>
-                        <a sid="0001,0007,0024" class=" " href="http://www.jyjpg.com/sclmz_1.html" title="石材罗马柱">石材罗马柱</a>
-                        <a sid="0001,0007,0025" class=" " href="http://www.jyjpg.com/zmxwb_1.html" title="竹木纤维板">竹木纤维板</a>
-                        <a sid="0001,0007,0026" class=" " href="http://www.jyjpg.com/ztb_1.html" title="甄陶板">甄陶板</a>
-                        <a sid="0001,0007,0027" class=" " href="http://www.jyjpg.com/hqbsbx_1.html" title="护墙板收边线">护墙板收边线</a>
-                    </dd>
-                </dl>
-                <dl class="clearfix">
-                    <dt class=" " sid="0001,0016"><a href="http://www.jyjpg.com/zshgj.html" title="装饰画（挂件）">
-                        <img src="/upfile/jz_case_ico03.gif" alt="装饰画（挂件）" />装饰画（挂件）：</a></dt>
-                    <dd>
-                        <span class="fr"><a href="http://www.jyjpg.com/zshgj.html" title="装饰画（挂件）"></a></span>
-                        <a sid="0001,0016,0017" class=" " href="http://www.jyjpg.com/phzsh.html" title="喷绘装饰画">喷绘装饰画</a>
-                        <a sid="0001,0016,0018" class=" " href="http://www.jyjpg.com/fdzsgj.html" title="浮雕装饰挂件">浮雕装饰挂件</a>
-                        <a sid="0001,0016,0019" class=" " href="http://www.jyjpg.com/zrxlgygj.html" title="自然系列工艺挂件">自然系列工艺挂件</a>
-                    </dd>
-                </dl>
-                <dl class="clearfix">
-                    <dt class=" " sid="0001,0020"><a href="http://www.jyjpg.com/gypbj.html" title="工艺品摆件">
-                        <img src="/upfile/jz_case_ico04.gif" alt="工艺品摆件" />工艺品摆件：</a></dt>
-                    <dd>
-                        <span class="fr"><a href="http://www.jyjpg.com/gypbj.html" title="工艺品摆件"></a></span>
-                        <a sid="0001,0020,0021" class=" " href="http://www.jyjpg.com/zrxlgybj.html" title="自然系列工艺摆件">自然系列工艺摆件</a>
-                        <a sid="0001,0020,0022" class=" " href="http://www.jyjpg.com/ztgybj.html" title="甄陶工艺摆件">甄陶工艺摆件</a>
-                    </dd>
-                </dl>
+        <div class="inside_dh">
+            <div class="container">
+                <script type="text/javascript">
+                    $(document).ready(
+                    function () {
+                        $('.inside_dh ul li').hover(
+                            function () {
+                                $(this).find('a:first').addClass('menu_current');
+                            }, function () {
+                                $(this).find('a:first').removeClass('menu_current');
+                            }
+                        );
+                    });
+                    </script>
+                <ul>
+                    <li><a href="./" title="全部产品">全部产品</a>
+                    </li>
+                    <asp:Literal ID="ltProdClass" runat="server"></asp:Literal>
+                </ul>
+                <div class="clear"></div>
             </div>
-            <div class="clear"></div>
-
+        </div>
+        <div class="jz_case">
             <div class="pro">
                 <dl class=" ">
                     <dt><a href="http://www.jyjpg.com/Products/cphms.html" title="春葩+花美时" target="_blank">

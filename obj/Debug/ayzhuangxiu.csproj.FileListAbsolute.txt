@@ -10,6 +10,5 @@ C:\Users\John\Desktop\KuaiZhuangShi-master\obj\Debug\ayzhuangxiu.dll
 C:\Users\John\Desktop\KuaiZhuangShi-master\obj\Debug\ayzhuangxiu.pdb
 C:\Users\John\Downloads\WEB2\bin\ayzhuangxiu.dll
 C:\Users\John\Downloads\WEB2\bin\ayzhuangxiu.pdb
-C:\Users\John\Downloads\WEB2\obj\Debug\ayzhuangxiu.csprojResolveAssemblyReference.cache
 C:\Users\John\Downloads\WEB2\obj\Debug\ayzhuangxiu.dll
 C:\Users\John\Downloads\WEB2\obj\Debug\ayzhuangxiu.pdb

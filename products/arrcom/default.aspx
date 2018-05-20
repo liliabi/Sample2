@@ -16,7 +16,29 @@
 <body>
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
-        <div class="pro-classify main-box">
+        <div class="inside_dh">
+            <div class="container">
+                <script type="text/javascript">
+                    $(document).ready(
+                    function () {
+                        $('.inside_dh ul li').hover(
+                            function () {
+                                $(this).find('a:first').addClass('menu_current');
+                            }, function () {
+                                $(this).find('a:first').removeClass('menu_current');
+                            }
+                        );
+                    });
+                    </script>
+                <ul>
+                    <li><a href="./" title="全部产品">全部产品</a>
+                    </li>
+                    <asp:Literal ID="ltProdClass" runat="server"></asp:Literal>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <%--<div class="pro-classify main-box">
             <dl class="classify-row">
                 <dt><span class="classify-ico" style="background-image: url(/upfile/classify-ico2.png);"></span>产品功能</dt>
                 <dd>
@@ -39,7 +61,7 @@
                     </ul>
                 </dd>
             </dl>
-        </div>
+        </div>--%>
         <div class="main-box">
             <ul class="page-l series-list">
                 <li class="index-one-case one-series"><a href="product_view.html?id=219">

@@ -5,8 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title></title>
-    <link href="/css/main.css" rel="stylesheet" />
+    
     <link href="/css/layout.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
     <script src="/js/jquery-1.7.2.min.js"></script>
     <script src="/js/common.js"></script>
     <link href="/images/whir_css.css" rel="stylesheet" type="text/css" />
@@ -15,9 +16,31 @@
 <body>
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
+        <div class="inside_dh">
+            <div class="container">
+                <script type="text/javascript">
+                    $(document).ready(
+                    function () {
+                        $('.inside_dh ul li').hover(
+                            function () {
+                                $(this).find('a:first').addClass('menu_current');
+                            }, function () {
+                                $(this).find('a:first').removeClass('menu_current');
+                            }
+                        );
+                    });
+                    </script>
+                <ul>
+                    <li><a href="./" title="全部产品">全部产品</a>
+                    </li>
+                    <asp:Literal ID="ltProdClass" runat="server"></asp:Literal>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
         <div class="wrapper">
             <div id="among">
-                <div id="aside">
+                <%--<div id="aside">
                     <ul>
                         <li>
                             <img src="/upfile/pro.png" />
@@ -55,19 +78,19 @@
                         </div>
 
                     </ul>
-                </div>
+                </div>--%>
                 <div class="content">
                     <!-- Content ================================================================ -->
                     <ul id="listPro" class="clearfix">
                         <a href="displayproduct.html?proID=2544489" target="_blank">
                             <li>
-                                <img src="/upfile/haomiaocangqiong.jpg" alt="WFB177浩渺苍穹"/>
+                                <img src="/upfile/haomiaocangqiong.jpg" alt="WFB177浩渺苍穹" />
                             </li>
                             <span>WFB177浩渺苍穹</span>
                         </a>
                         <a href="displayproduct.html?proID=2544488" target="_blank">
                             <li>
-                                <img src="/upfile/shuxingdanyue.jpg" alt="WFB176疏星淡月"/>
+                                <img src="/upfile/shuxingdanyue.jpg" alt="WFB176疏星淡月" />
                             </li>
                             <span>WFB176疏星淡月</span>
                         </a>
