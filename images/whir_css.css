@@ -219,7 +219,7 @@ a {
 .fullSlide {
     width: 100%;
     position: relative;
-    height: 599px;
+    height: 400px;
     /*top:92px;*/
 }
 
@@ -236,7 +236,7 @@ a {
 
         .fullSlide .bd li {
             width: 100% !important;
-            height: 599px;
+            height: 400px;
             width: 100%;
             overflow: hidden;
             text-align: center;
@@ -244,7 +244,7 @@ a {
 
             .fullSlide .bd li a {
                 display: block;
-                height: 599px;
+                height: 400px;
             }
 
     .fullSlide .hd {

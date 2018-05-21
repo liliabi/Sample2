@@ -4,8 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title></title>
-    
+    <title>快装师</title>
+
     <link href="/css/layout.css" rel="stylesheet" />
     <link href="/css/main.css" rel="stylesheet" />
     <script src="/js/jquery-1.7.2.min.js"></script>
@@ -16,12 +16,12 @@
 <body>
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
-        
+
         <div class="MainBox">
             <div class="banner_list b_dlock" style="background: url(/upfile/wfbanner.jpg) center top no-repeat; display: block;">
             </div>
         </div>
-        
+
         <div class="inside_dh">
             <div class="container">
                 <script type="text/javascript">
@@ -35,7 +35,7 @@
                             }
                         );
                     });
-                    </script>
+                </script>
                 <ul>
                     <li><a href="./" title="全部产品">全部产品</a>
                     </li>

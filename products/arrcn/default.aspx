@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>快装师</title>
     <link href="/css/arrcnindex.css" rel="stylesheet" />
     <link href="/css/arrcnswiper.css" rel="stylesheet" />
     <link href="/images/whir_css.css" rel="stylesheet" type="text/css" />

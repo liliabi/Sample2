@@ -7,8 +7,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=7" />
     <title>快装师</title>
-    <meta name="keywords" content=''>
-    <meta name="description" content=''>
     <link href="../../images/whir_css.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="../../images/jquery.min.js"></script>
     <script type="text/javascript" src="../../images/work.js"></script>

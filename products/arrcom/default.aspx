@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title></title>
+    <title>快装师</title>
     <link href="/css/arrowwardrobe.css" rel="stylesheet" />
     <link href="/css/layer.css" rel="stylesheet" />
     <script src="/js/layer.js"></script>

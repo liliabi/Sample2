@@ -9,7 +9,7 @@
     <!--默认使用极速渲染模式-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <!--让IE调用edge引擎渲染-->
-    <title>XX公司网站</title>
+    <title>快装师</title>
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/idangerous.swiper.css" />
