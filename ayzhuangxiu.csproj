@@ -110,6 +110,7 @@
     <Content Include="css\about_us.css" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\arrcnindex.css" />
+    <Content Include="css\arrcnindex1.css" />
     <Content Include="css\arrcnswiper.css" />
     <Content Include="css\arrowwardrobe.css" />
     <Content Include="css\case_detail.css" />
@@ -869,11 +870,8 @@
     <Content Include="products\wfcom\default.aspx" />
     <Content Include="upfile\2018050616500893.png" />
     <Content Include="upfile\2018050722475160.png" />
-    <Content Include="upfile\2018050808414106.png" />
     <Content Include="upfile\2018050808442804.png" />
     <Content Include="upfile\2018051009252318.png" />
-    <Content Include="upfile\2018051009293725.png" />
-    <Content Include="upfile\2018051009305393.png" />
     <Content Include="upfile\2018051009310057.png" />
     <Content Include="upfile\2018051009311266.png" />
     <Content Include="upfile\2018051009311845.png" />
