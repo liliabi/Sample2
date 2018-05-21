@@ -14,6 +14,10 @@
 <body>
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
+        <div class="MainBox">
+            <div class="banner_list b_dlock" style="background: url(/upfile/arrowkitchenbanner.jpg) center top no-repeat; display: block;">
+            </div>
+        </div>
         <div class="inside_dh">
             <div class="container">
                 <script type="text/javascript">
