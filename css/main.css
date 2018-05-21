@@ -198,3 +198,24 @@ body .fl-right{
 .inside_dh ul li dl dt{ height:38px; line-height:38px; margin:0px; padding:0px;}
 .inside_dh ul li:hover dl{ display:block;}
 .container { min-width:1100px; width:1100px; margin:0px auto; padding:0px; text-align:left; }
+
+.MainBox {
+                z-index: 0;
+                position: relative;
+                width: 100%;
+                height: 400px;
+            }
+
+                .MainBox .banner_list {
+                    position: absolute;
+                    width: 100%;
+                    display: none;
+                    height: 400px;
+                    top: 0px;
+                    left: 0px;
+                    z-index: 0;
+                }
+
+                .MainBox .b_dlock {
+                    display: block;
+                }
