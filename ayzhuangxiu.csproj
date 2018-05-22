@@ -857,11 +857,17 @@
     <Content Include="picture\z4.png" />
     <Content Include="picture\z5.png" />
     <Content Include="picture\z6.png" />
+    <Content Include="products\arrcn\about.aspx" />
     <Content Include="products\arrcn\default.aspx" />
+    <Content Include="products\arrcn\style.css" />
+    <Content Include="products\arrcom\about.aspx" />
     <Content Include="products\arrcom\default.aspx" />
+    <Content Include="products\faencc\about.aspx" />
     <Content Include="products\faencc\default.aspx" />
     <Content Include="products\faencc\view\default.aspx" />
+    <Content Include="products\faencn\about.aspx" />
     <Content Include="products\faencn\default.aspx" />
+    <Content Include="products\faencn\style.css" />
     <Content Include="products\jycom\about.aspx" />
     <Content Include="products\jycom\default.aspx" />
     <Content Include="products\jycom\resetcommon.css" />
@@ -1508,6 +1514,13 @@
     <Compile Include="news\view\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="products\arrcn\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\arrcn\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
     <Compile Include="products\arrcn\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1515,12 +1528,26 @@
     <Compile Include="products\arrcn\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="products\arrcom\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\arrcom\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
     <Compile Include="products\arrcom\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="products\arrcom\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\faencc\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\faencc\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
     </Compile>
     <Compile Include="products\faencc\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -1535,6 +1562,13 @@
     </Compile>
     <Compile Include="products\faencc\view\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\faencn\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\faencn\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
     </Compile>
     <Compile Include="products\faencn\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>

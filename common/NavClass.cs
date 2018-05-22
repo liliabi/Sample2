@@ -48,9 +48,9 @@ namespace ayzhuangxiu.common
             result.AppendLine("        </ul>");
             result.AppendLine("    </div>");
             result.AppendLine("</div>");
-            result.AppendLine("<script type=\"text/javascript\">");
-            result.AppendLine("    $(\".navbg\").capacityFixed();");
-            result.AppendLine("</script>");
+            //result.AppendLine("<script type=\"text/javascript\">");
+            //result.AppendLine("    $(\".navbg\").capacityFixed();");
+            //result.AppendLine("</script>");
             return result.ToString();
         }
         public static string LoadFooter()
