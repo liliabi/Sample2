@@ -862,8 +862,10 @@
     <Content Include="products\arrcn\style.css" />
     <Content Include="products\arrcom\about.aspx" />
     <Content Include="products\arrcom\default.aspx" />
+    <Content Include="products\arrcom\style.css" />
     <Content Include="products\faencc\about.aspx" />
     <Content Include="products\faencc\default.aspx" />
+    <Content Include="products\faencc\style.css" />
     <Content Include="products\faencc\view\default.aspx" />
     <Content Include="products\faencn\about.aspx" />
     <Content Include="products\faencn\default.aspx" />
