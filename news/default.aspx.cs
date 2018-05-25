@@ -11,7 +11,8 @@ namespace ayzhuangxiu.news
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            this.ltHeader.Text = ayzhuangxiu.common.NavClass.LoadHeader();
+            this.ltFooter.Text = ayzhuangxiu.common.NavClass.LoadFooter();
         }
     }
 }
