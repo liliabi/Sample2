@@ -14,6 +14,11 @@
 <body>
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
+        <div class="bannerbox">
+            <a class="banner">
+                <img src="/upfile/jianpaiyiguiabout.jpg" />
+            </a>
+        </div>
         <div class="main-box">
             <div class="page-r main-r">
                 <div class="member-con clearfix">

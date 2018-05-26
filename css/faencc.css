@@ -89,7 +89,7 @@ zoom:1; text-align:center; }
 /*Index End*/
 .inside_banner { min-width:1100px; }
 #con { padding:27px 0px; }
-.inside_dh { min-width:1100px; min-height:65px; height:auto; _height:65px; line-height:65px; text-align:center; border-bottom:solid 1px #dddddd; background:#f5f5f5; margin-bottom:20px;position: relative;z-index: 9;}
+.inside_dh { min-width:1100px; min-height:65px; height:auto; _height:65px; line-height:65px; text-align:center; border-bottom:solid 1px #dddddd; background:#f5f5f5; margin-bottom:20px;position: relative;}
 .inside_dh_l { float:left; }
 .inside_dh ul { }
 .inside_dh ul li { height:67px; line-height:67px; float:left; text-align:center; font-size:15px; position:relative;}
@@ -314,7 +314,7 @@ overflow:hidden; }
 .display_title{padding:15px 0px; padding-top:20px; font-size:20px; text-align:center;}
 .display_title h1{ font-size:20px; font-weight:bold;}
 .MainBox {
-                Z-INDEX: 0;
+                
                 POSITION: relative;
                 WIDTH: 100%;
                 height: 400px;
@@ -327,7 +327,7 @@ overflow:hidden; }
                     HEIGHT: 400px;
                     TOP: 0px;
                     LEFT: 0px;
-                    z-index: 0;
+                    
                 }
 
                 .MainBox .bannerBox .b_dlock {
@@ -340,7 +340,7 @@ overflow:hidden; }
                 top: 360px;
                 position: absolute;
                 text-align: center;
-                z-index: 11;
+                
                 left: 0;
                 width: 100%;
             }

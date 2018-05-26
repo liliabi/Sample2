@@ -481,6 +481,7 @@
     <Content Include="images\conn_dot02.png" />
     <Content Include="images\conn_dot03.png" />
     <Content Include="images\conn_dot04.png" />
+    <Content Include="images\index_dh_line.jpg" />
     <Content Include="images\picshow6.js" />
     <Content Include="images\picshow5.js" />
     <Content Include="images\picshow4.js" />
@@ -1022,6 +1023,7 @@
     <Content Include="upfile\FW026Q.png" />
     <Content Include="upfile\gangshichanpin.png" />
     <Content Include="upfile\geduangui.jpg" />
+    <Content Include="upfile\gongchenganli.jpg" />
     <Content Include="upfile\guodaogui.jpg" />
     <Content Include="upfile\haomiaocangqiong.jpg" />
     <Content Include="upfile\houdezaiwu.jpg" />
@@ -1036,6 +1038,7 @@
     <Content Include="upfile\jianaimeiershe.jpg" />
     <Content Include="upfile\jianaishengjie.jpg" />
     <Content Include="upfile\jianaishengtang.jpg" />
+    <Content Include="upfile\jianpaiyiguiabout.JPG" />
     <Content Include="upfile\jidiliange.jpg" />
     <Content Include="upfile\jiguang.jpg" />
     <Content Include="upfile\jingdianbaimeigui.jpg" />
@@ -1053,6 +1056,7 @@
     <Content Include="upfile\lantinghui.jpg" />
     <Content Include="upfile\luokekebianzouqu.jpg" />
     <Content Include="upfile\pinanfugui.jpg" />
+    <Content Include="upfile\pinpaizixun.jpg" />
     <Content Include="upfile\pro.png" />
     <Content Include="upfile\pro_more.jpg" />
     <Content Include="upfile\qiandaohuguang.jpg" />

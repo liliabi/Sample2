@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ayzhuangxiu.products._default" %>
+
 <%@ Register Assembly="AspNetPager" Namespace="Wuqi.Webdiyer" TagPrefix="asp" %>
 <!DOCTYPE html>
 
@@ -7,23 +8,22 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=7" />
     <title>快装师</title>
+    <link href="../../css/faencc.css" rel="stylesheet" />
     <link href="../../images/whir_css.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="../../images/jquery.min.js"></script>
     <script type="text/javascript" src="../../images/work.js"></script>
-    <link href="../../css/common.css" rel="stylesheet" />
-    <link href="../../css/faencc.css" rel="stylesheet" />
-    
-
+    <%--<link href="../../css/common.css" rel="stylesheet" />--%>
 </head>
 <body>
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
-        <div id="index_overflow">           
-            <div class="MainBox">
-                <div class="bannerBox">                   
-                    <div class="banner_list b_dlock" style="background: url(../../upfile/faenccproduction.jpg) center top no-repeat; display: block;"></div>                   
-                </div>
+        <div class="MainBox">
+            <div class="bannerBox">
+                <div class="banner_list b_dlock" style="background: url(../../upfile/faenccproduction.jpg) center no-repeat; display: block;"></div>
             </div>
+        </div>
+        <%--<div id="index_overflow">--%>
+
 
             <!--Banner-->
             <div class="inside_dh">
@@ -41,9 +41,9 @@
                         });
                     </script>
                     <ul>
-                        <li><a href="./" title="全部产品">全部产品</a>                          
+                        <li><a href="./" title="全部产品">全部产品</a>
                         </li>
-                        <asp:Literal ID="ltProdClass" runat="server"></asp:Literal>                       
+                        <asp:Literal ID="ltProdClass" runat="server"></asp:Literal>
                     </ul>
                     <div class="clear"></div>
                 </div>
@@ -77,10 +77,10 @@
                             </asp:Panel>
                         </FooterTemplate>
                     </asp:Repeater>
-                   
+
                     <div class="clear"></div>
                     <div class="fpage">
-                         <asp:AspNetPager ID="MyPager" runat="server" PageSize="6" PageIndexBoxType="DropDownList"
+                        <asp:AspNetPager ID="MyPager" runat="server" PageSize="6" PageIndexBoxType="DropDownList"
                             ShowPageIndexBox="Never" CustomInfoHTML="" ShowCustomInfoSection="Never" AlwaysShow="False"
                             Wrap="False" LayoutType="Table" HorizontalAlign="Center" CustomInfoTextAlign="Right"
                             FirstPageText="首页" LastPageText="尾页" NextPageText="下一页" PrevPageText="上一页"
@@ -90,8 +90,8 @@
                     <div class="clear"></div>
                 </div>
             </div>
-           
-        </div>
+
+        <%--</div>--%>
         <!--footer-->
         <asp:Literal ID="ltFooter" runat="server"></asp:Literal>
     </form>
