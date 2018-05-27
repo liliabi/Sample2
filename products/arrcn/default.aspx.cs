@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Text;
+using System.Web.UI.WebControls;
 
 namespace ayzhuangxiu.products.arrcn
 {
@@ -11,6 +12,7 @@ namespace ayzhuangxiu.products.arrcn
             this.ltHeader.Text = ayzhuangxiu.common.NavClass.LoadHeader();
             this.ltFooter.Text = ayzhuangxiu.common.NavClass.LoadFooter();
             LoadProdClass();
+            BindDataList();
         }
 
         protected void LoadProdClass()
@@ -38,6 +40,37 @@ namespace ayzhuangxiu.products.arrcn
                 result.AppendLine("            </li>");
             }
             this.ltProdClass.Text = result.ToString();
+        }
+
+        protected void MyPager_PageChanged(object src, EventArgs e)
+        {
+            BindDataList();
+        }
+
+        private void BindDataList()
+        {
+            string classid = string.Empty;
+            if (Request.QueryString.Count > 0)
+            {
+                classid = PaducnSoft.Common.Utils.NullToString(Request.QueryString["id"]);
+            }
+            //classid=1 =>法恩莎瓷砖
+            string sql = "select a.* from ay_products_v a where (a.bClassID in (select bId from ay_prodclass where bParent=26) or a.bParentID in (select bId from ay_prodclass where bParent=26)) ";
+            if (classid != "")
+            {
+                sql += " and (a.bClassID=" + classid + " or a.bParentID=" + classid + ")";
+            }
+            sql += " order by a.bAddTime desc,a.bId";
+            DataTable dt = PaducnSoft.DBUtility.DbHelperOleDb.Query(sql).Tables[0];
+            this.MyPager.RecordCount = dt.Rows.Count;
+            PagedDataSource pds = new PagedDataSource();
+            pds.DataSource = dt.DefaultView;
+            pds.AllowPaging = true;
+            pds.PageSize = this.MyPager.PageSize;
+            pds.CurrentPageIndex = this.MyPager.CurrentPageIndex - 1;
+            this.rpList.DataSource = pds;
+            this.rpList.DataBind();
+            dt = null;
         }
     }
 }

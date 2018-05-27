@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ayzhuangxiu.products.arrcom._default" %>
 
+<%@ Register Assembly="AspNetPager" Namespace="Wuqi.Webdiyer" TagPrefix="asp" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -33,7 +34,7 @@
                             }
                         );
                     });
-                    </script>
+                </script>
                 <ul>
                     <li><a href="./" title="全部产品">全部产品</a>
                     </li>
@@ -42,18 +43,10 @@
                 <div class="clear"></div>
             </div>
         </div>
-        
+
         <div class="main-box">
             <ul class="page-l series-list">
-                <li class="index-one-case one-series"><a href="product_view.html?id=219">
-                    <div class="pro_imgdiv">
-                        <img class="index-case-pic delay-loading" alt="【英伦曼舞】衣柜" src="/upfile/yigui.jpg" />
-                    </div>
-                    <p class="index-case-name">【英伦曼舞】衣柜</p>
-                    <p>自然温馨的色彩点燃整间居室的气氛,带弧形的门板设...</p>
-
-                </a></li>
-                <li class="index-one-case one-series"><a href="product_view.html?id=218">
+                <%--<li class="index-one-case one-series"><a href="product_view.html?id=218">
                     <div class="pro_imgdiv">
                         <img class="index-case-pic delay-loading" alt="【水木清华】梳妆台" src="/upfile/shuzhuangtai.jpg" />
                     </div>
@@ -124,8 +117,38 @@
                     <p class="index-case-name">【都市恋人】斗柜</p>
                     <p>追求简约时尚，不是毫无内涵的随波逐流，而是自然和现...</p>
                 </a>
-                </li>
+                </li>--%>
+
+                <asp:Repeater ID="rpList" runat="server">
+                    <ItemTemplate>
+                        <li class="index-one-case one-series"><a href="view/?id=<%#Eval("bId")%>">
+                            <div class="pro_imgdiv">
+                                <img class="index-case-pic delay-loading" alt="<%#Eval("bTitle")%>" src="/upfile/<%#Eval("bPic")%>" />
+                            </div>
+                            <p class="index-case-name"><%#Eval("bTitle")%></p>
+                            <p><%#Eval("bContent")%></p>
+                        </a>
+                        </li>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                        <asp:Panel ID="Panel1" runat="server" Visible='<%#bool.Parse((rpList.Items.Count==0).ToString())%>'>
+                            <p>
+                                <asp:Label ID="lblEmpty" Text="没有找到任何数据" runat="server"></asp:Label>
+                            </p>
+                        </asp:Panel>
+                    </FooterTemplate>
+                </asp:Repeater>
             </ul>
+            <div class="clear"></div>
+            <div class="fpage">
+                <asp:AspNetPager ID="MyPager" runat="server" PageSize="6" PageIndexBoxType="DropDownList"
+                    ShowPageIndexBox="Never" CustomInfoHTML="" ShowCustomInfoSection="Never" AlwaysShow="False"
+                    Wrap="False" LayoutType="Table" HorizontalAlign="Center" CustomInfoTextAlign="Right"
+                    FirstPageText="首页" LastPageText="尾页" NextPageText="下一页" PrevPageText="上一页"
+                    Direction="LeftToRight" OnPageChanged="MyPager_PageChanged">
+                </asp:AspNetPager>
+            </div>
+            <div class="clear"></div>
         </div>
 
         <asp:Literal ID="ltFooter" runat="server"></asp:Literal>

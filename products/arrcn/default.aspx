@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="ayzhuangxiu.products.arrcn._default" %>
 
+<%@ Register Assembly="AspNetPager" Namespace="Wuqi.Webdiyer" TagPrefix="asp" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -15,7 +16,7 @@
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
         <div class="MainBox">
-            <div class="banner_list b_dlock" style="background: url(/upfile/arrowkitchenbanner.jpg) center top no-repeat;height: 400px; display: block;">
+            <div class="banner_list b_dlock" style="background: url(/upfile/arrowkitchenbanner.jpg) center top no-repeat; height: 400px; display: block;">
             </div>
         </div>
         <div class="inside_dh">
@@ -40,10 +41,38 @@
                 <div class="clear"></div>
             </div>
         </div>
-        
+
         <div class="pro_list_bg">
             <div class="container">
-                <div class="pro_pic">
+                <div class="inside_con" style="padding: 15px 0;">
+
+                    <asp:Repeater ID="rpList" runat="server">
+                        <ItemTemplate>
+                            <div class="pro_pic">
+                                <div class="h_div" style="display: none;"><a href="view/?id=<%#Eval("bId")%>" target="_blank" title="<%#Eval("bTitle")%>" style="margin-top: -210px;"></a></div>
+                                <img src="/upfile/<%#Eval("bPic")%>"><div class="name"><%#Eval("bTitle")%></div>
+                            </div>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            <asp:Panel ID="Panel1" runat="server" Visible='<%#bool.Parse((rpList.Items.Count==0).ToString())%>'>
+                                <p>
+                                    <asp:Label ID="lblEmpty" Text="没有找到任何数据" runat="server"></asp:Label>
+                                </p>
+                            </asp:Panel>
+                        </FooterTemplate>
+                    </asp:Repeater>
+                    <div class="clear"></div>
+                    <div class="fpage">
+                        <asp:AspNetPager ID="MyPager" runat="server" PageSize="6" PageIndexBoxType="DropDownList"
+                            ShowPageIndexBox="Never" CustomInfoHTML="" ShowCustomInfoSection="Never" AlwaysShow="False"
+                            Wrap="False" LayoutType="Table" HorizontalAlign="Center" CustomInfoTextAlign="Right"
+                            FirstPageText="首页" LastPageText="尾页" NextPageText="下一页" PrevPageText="上一页"
+                            Direction="LeftToRight" OnPageChanged="MyPager_PageChanged">
+                        </asp:AspNetPager>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <%--<div class="pro_pic">
                     <div class="h_div" style="display: none;"><a href="http://www.arrowkitchen.cn/proID=2434046_displayproduct.html" target="_blank" title="韵律芭蕾" style="margin-top: -210px;"></a></div>
                     <img src="/upfile/yunlvbalei.jpg"><div class="name">韵律芭蕾</div>
                 </div>
@@ -95,7 +124,7 @@
                 <div style="text-align: center; margin: 0px auto; margin: 20px 0px;">
                     <!--Content-->
                     <div class="clear"></div>
-                </div>
+                </div>--%>
             </div>
         </div>
         <asp:Literal ID="ltFooter" runat="server"></asp:Literal>
