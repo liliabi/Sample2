@@ -26,7 +26,7 @@ a img{ border:none;}
 
 .float_right{ float:right;}
 
-.container1 { min-width:1100px; width:1100px; margin:0px auto; padding:0px; text-align:left; }
+.container { min-width:1100px; width:1100px; margin:0px auto; padding:0px; text-align:left; }
 
 .top_bg{height:160px; background:#25211e; z-index:40; width:100%; position:fixed;  top:0; left:0; _position: absolute; _bottom: auto; _top: expression(eval(document.documentElement.scrollTop));  z-index:30;}
 
@@ -552,3 +552,24 @@ a.home_clickmore{ width:120px; line-height:36px; height:36px; display:block; bac
 .inside_dh ul li dl{display:none; width:100%;position:absolute; top:68px; left:0px; background:#f1f1f1; margin:0px; padding:0px;}
 .inside_dh ul li dl dt{ height:38px; line-height:38px; margin:0px; padding:0px;}
 .inside_dh ul li:hover dl{ display:block;}
+
+.MainBox {
+                
+                POSITION: relative;
+                WIDTH: 100%;
+                height: 400px;
+            }
+
+                .MainBox .bannerBox .banner_list {
+                    POSITION: absolute;
+                    WIDTH: 100%;
+                    DISPLAY: none;
+                    HEIGHT: 400px;
+                    TOP: 0px;
+                    LEFT: 0px;
+                    
+                }
+
+                .MainBox .bannerBox .b_dlock {
+                    display: block;
+                }

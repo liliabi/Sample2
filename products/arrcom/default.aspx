@@ -42,30 +42,7 @@
                 <div class="clear"></div>
             </div>
         </div>
-        <%--<div class="pro-classify main-box">
-            <dl class="classify-row">
-                <dt><span class="classify-ico" style="background-image: url(/upfile/classify-ico2.png);"></span>产品功能</dt>
-                <dd>
-                    <ul>
-                        <li><a href="products.html?keyword=">全部</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=衣柜">衣柜</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=衣帽间">衣帽间</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=榻榻米">榻榻米</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=书柜">书柜</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=酒柜">酒柜</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=玄关柜">玄关柜</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=装饰柜">装饰柜</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=电视柜">电视柜</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=鞋柜">鞋柜</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=床">床</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=餐边柜">餐边柜</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=梳妆台">梳妆台</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=飘窗">飘窗</a></li>
-                        <li><a href="products.html?keyword=&amp;cname=端景柜">端景柜</a></li>
-                    </ul>
-                </dd>
-            </dl>
-        </div>--%>
+        
         <div class="main-box">
             <ul class="page-l series-list">
                 <li class="index-one-case one-series"><a href="product_view.html?id=219">

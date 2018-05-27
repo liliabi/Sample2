@@ -17,10 +17,10 @@ namespace ayzhuangxiu.products.arrcn
         {
             StringBuilder result = new StringBuilder();
             result.Clear();
-            string tsql = "select t.* from ay_prodclass t where bParent=1 or bParent in (select bId from ay_prodclass where bParent=1) order by t.bAddTime";
+            string tsql = "select t.* from ay_prodclass t where bParent=26 or bParent in (select bId from ay_prodclass where bParent=26) order by t.bAddTime";
             DataSet ds = PaducnSoft.DBUtility.DbHelperOleDb.Query(tsql);
 
-            DataRow[] drsRoot = ds.Tables[0].Select("bParent=1", "bOrder");
+            DataRow[] drsRoot = ds.Tables[0].Select("bParent=26", "bOrder");
             foreach (DataRow drRoot in drsRoot)
             {
                 result.AppendLine("<li><a href=\"./?id=" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bId"]) + "\" title=\"" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bName"]) + "\">" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bName"]) + "</a>");

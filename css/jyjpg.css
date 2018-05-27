@@ -2022,7 +2022,7 @@ span.em01 a:hover {background:#d9333d none repeat scroll;color: #FFF;}
 .inside_dh ul li a:hover { border-bottom:solid 1px #950d0f; }
 .inside_dh ul li a.hover { border-bottom:solid 1px #950d0f; }
 .inside_dh ul li dl{display:none; width:100%;position:absolute; top:68px; left:0px; background:#f1f1f1; margin:0px; padding:0px;}
-.inside_dh ul li dl dt{ height:38px; line-height:38px; margin:0px; padding:0px;}
+.inside_dh ul li dl dt{ height:38px; line-height:38px; margin:0px; padding:0px; overflow:hidden;}
 .inside_dh ul li:hover dl{ display:block;}
 .container { min-width:1100px; width:1100px; margin:0px auto; padding:0px; text-align:left; }
 
