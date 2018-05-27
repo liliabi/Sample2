@@ -31,6 +31,33 @@ namespace ayzhuangxiu.thecase {
         protected global::System.Web.UI.WebControls.Literal ltHeader;
         
         /// <summary>
+        /// ltProdClass 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal ltProdClass;
+        
+        /// <summary>
+        /// rpList 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater rpList;
+        
+        /// <summary>
+        /// MyPager 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::Wuqi.Webdiyer.AspNetPager MyPager;
+        
+        /// <summary>
         /// ltFooter 控件。
         /// </summary>
         /// <remarks>
