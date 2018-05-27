@@ -396,3 +396,34 @@ zoom:1; text-align:center; }
 .inside_dh ul li dl{display:none; width:100%;position:absolute; top:68px; left:0px; background:#f1f1f1; margin:0px; padding:0px;}
 .inside_dh ul li dl dt{ height:38px; line-height:38px; margin:0px; padding:0px; overflow:hidden;}
 .inside_dh ul li:hover dl{ display:block;}
+
+ .fpage {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 12px;
+                    margin: 0 auto;
+                    padding: 30px 0px 20px 0px;
+                }
+
+                    .fpage font {
+                        display: block;
+                        background: #222222;
+                        color: #fff;
+                    }
+
+                    .fpage a {
+                        width: 50px;
+                        height: 32px;
+                        line-height: 32px;
+                        border: 1px solid #e4e4e4;
+                        display: inline-block;
+                        display: -moz-inline-stack;
+                        *display: inline;
+                        *zoom: 1;
+                        background: #fff;
+                    }
+
+                        .fpage a:hover {
+                            background: #222222;
+                            color: #fff;
+                        }

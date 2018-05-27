@@ -16,17 +16,9 @@ namespace ayzhuangxiu.products.faencn
         {
             this.ltHeader.Text = ayzhuangxiu.common.NavClass.LoadHeader();
             this.ltFooter.Text = ayzhuangxiu.common.NavClass.LoadFooter();
-            //pageTop contact_top = new pageTop();
-            //Top.Text = contact_top.initTop();
 
-            //pageNav contact_nav = new pageNav();
-            //Nav.Text = contact_nav.initNav();
-            ////loadingMenu();
-            ////loadingBanner();
-            ////loadingBody();
-            //pageFooter contact_footer = new pageFooter();
-            //Footer.Text = contact_footer.initFooter("2002-2018 某某装饰公司 版权所有 ICP备XXXXXXXX号");
             LoadProdClass();
+            BindDataList();
         }
 
         protected void LoadProdClass()
@@ -54,6 +46,37 @@ namespace ayzhuangxiu.products.faencn
                 result.AppendLine("            </li>");
             }
             this.ltProdClass.Text = result.ToString();
+        }
+
+        protected void MyPager_PageChanged(object src, EventArgs e)
+        {
+            BindDataList();
+
+        }
+        private void BindDataList()
+        {
+            string classid = string.Empty;
+            if (Request.QueryString.Count > 0)
+            {
+                classid = PaducnSoft.Common.Utils.NullToString(Request.QueryString["id"]);
+            }
+
+            string sql = "select a.* from ay_products_v a where (a.bClassID in (select bId from ay_prodclass where bParent=17) or a.bParentID in (select bId from ay_prodclass where bParent=17)) ";
+            if (classid != "")
+            {
+                sql += " and (a.bClassID=" + classid + " or a.bParentID=" + classid + ")";
+            }
+            sql += " order by a.bAddTime desc,a.bId";
+            DataTable dt = PaducnSoft.DBUtility.DbHelperOleDb.Query(sql).Tables[0];
+            this.MyPager.RecordCount = dt.Rows.Count;
+            PagedDataSource pds = new PagedDataSource();
+            pds.DataSource = dt.DefaultView;
+            pds.AllowPaging = true;
+            pds.PageSize = this.MyPager.PageSize;
+            pds.CurrentPageIndex = this.MyPager.CurrentPageIndex - 1;
+            this.rpList.DataSource = pds;
+            this.rpList.DataBind();
+            dt = null;
         }
     }
 }

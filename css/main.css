@@ -219,3 +219,33 @@ body .fl-right{
                 .MainBox .b_dlock {
                     display: block;
                 }
+ .fpage {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 12px;
+                    margin: 0 auto;
+                    padding: 30px 0px 20px 0px;
+                }
+
+                    .fpage font {
+                        display: block;
+                        background: #222222;
+                        color: #fff;
+                    }
+
+                    .fpage a {
+                        width: 50px;
+                        height: 32px;
+                        line-height: 32px;
+                        border: 1px solid #e4e4e4;
+                        display: inline-block;
+                        display: -moz-inline-stack;
+                        *display: inline;
+                        *zoom: 1;
+                        background: #fff;
+                    }
+
+                        .fpage a:hover {
+                            background: #222222;
+                            color: #fff;
+                        }
