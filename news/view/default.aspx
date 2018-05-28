@@ -7,6 +7,8 @@
     <title></title>
     <link href="../style.css" rel="stylesheet" />
     <link href="/images/whir_css.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="/images/work.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
