@@ -25,41 +25,7 @@
                     </div>
                 </div>
             </div>
-            <script>
-
-                function bannerShow() {
-                    var scrw = $(".inside_banner").width();
-
-
-                    var img = $(".touchslider-item img:first"); //获取img元素
-                    var picRealWidth, picRealHeight;
-                    $("<img/>") // 在内存中创建一个img标记
-                        .attr("src", $(img).attr("src"))
-                        .load(function () {
-                            picRealWidth = this.width;
-                            picRealHeight = this.height;
-                            $("#tempDiv").height(scrw * picRealHeight / picRealWidth + "px");
-                        });
-
-
-                    var scrw_height = $("#test_banner").height();
-                    var scrw_width = $("#test_banner").width();
-                    document.getElementById("tempDiv").style.height = scrw * scrw_height / scrw_width + "px";
-                    $(".touchslider-item img").width(scrw);
-
-                    $(".touchslider-demo").touchSlider({
-                        mouseTouch: true
-
-                    });
-                }
-                bannerShow();
-
-                $(window).resize(function () {
-
-                    bannerShow();
-
-                });
-            </script>
+          
         </div>
         <div class="container">
             <div class="inside_dh">
