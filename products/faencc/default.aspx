@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=7" />
+    
     <title>快装师</title>
     <link href="../../css/faencc.css" rel="stylesheet" />
     <link href="../../images/whir_css.css" rel="stylesheet" type="text/css" />
