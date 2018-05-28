@@ -54,7 +54,7 @@
                         <ItemTemplate>
                             <div class="s_pic add_pic">
                                 <div class="pic_con">
-                                    <a href="view/?id=<%#Eval("bId")%>" target="_blank">
+                                    <a href="/products/show.aspx?id=<%#Eval("bId")%>" target="_blank">
                                         <img src="/upfile/<%#Eval("bPic")%>" class="LazyLoad" style="display: inline;" />
                                     </a>
                                     <div class="name">
