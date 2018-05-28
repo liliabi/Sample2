@@ -7,8 +7,7 @@
 <head id="Head1" runat="server">
     <title>快装师</title>
     <link href="/css/arrowwardrobe.css" rel="stylesheet" />
-    <link href="/css/layer.css" rel="stylesheet" />
-    <script src="/js/layer.js"></script>
+
     <script src="/js/arrowwardrobe.js"></script>
     <link href="/images/whir_css.css" rel="stylesheet" type="text/css" />
     <script src="/js/jquery-1.11.3.min.js"></script>
