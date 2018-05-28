@@ -49,8 +49,8 @@
                     <asp:Repeater ID="rpList" runat="server">
                         <ItemTemplate>
                             <div class="pro_pic">
-                                <div class="h_div" style="display: none;"><a href="view/?id=<%#Eval("bId")%>" target="_blank" title="<%#Eval("bTitle")%>" style="margin-top: -210px;"></a></div>
-                                <img src="/upfile/<%#Eval("bPic")%>"><div class="name"><%#Eval("bTitle")%></div>
+                                <a href="/products/show.aspx?id=<%#Eval("bId")%>" target="_blank" title="<%#Eval("bTitle")%>" style="margin-top: -210px;">
+                                <img src="/upfile/<%#Eval("bPic")%>"><div class="name"><%#Eval("bTitle")%></a></div>
                             </div>
                         </ItemTemplate>
                         <FooterTemplate>
