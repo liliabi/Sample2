@@ -54,13 +54,13 @@
                         <ItemTemplate>
                             <div class="pro_list <%# (Container.ItemIndex + 1)%2==0?"prof_right":"" %>">
                                 <div class="f_pic c_pic">
-                                    <a href="view/?id=<%#Eval("bId")%>" title="<%#Eval("bTitle")%>" target="_blank">
-                                        <img src="../../upfile/<%#Eval("bPic")%>" width="550" height="320" />
+                                    <a href="/products/show.aspx?id=<%#Eval("bId")%>" title="<%#Eval("bTitle")%>" target="_blank">
+                                        <img src="/upfile/<%#Eval("bPic")%>" width="550" height="320" />
                                     </a>
                                 </div>
                                 <div class="f_pic">
                                     <div class="div_con">
-                                        <div class="title"><a href="view/?id=<%#Eval("bId")%>" title="<%#Eval("bTitle")%>" target="_blank"><%#Eval("bTitle")%></a></div>
+                                        <div class="title"><a href="/products/show.aspx?id=<%#Eval("bId")%>" title="<%#Eval("bTitle")%>" target="_blank"><%#Eval("bTitle")%></a></div>
                                         <div class="line"></div>
                                         <div class="jianshu">
                                             <p><%# PaducnSoft.Common.Utils.CutString(PaducnSoft.Common.Utils.DeleteHtml(PaducnSoft.Common.Utils.HtmlDecode(PaducnSoft.Common.StringPlus.NullToString(Eval("bContent")))), 220)%></p>
