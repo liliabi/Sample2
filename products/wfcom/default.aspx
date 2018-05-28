@@ -52,7 +52,7 @@
                     <ul id="listPro" class="clearfix">
                         <asp:Repeater ID="rpList" runat="server">
                             <ItemTemplate>
-                                <a href="view/?id=<%#Eval("bId")%>" target="_blank">
+                                <a href="/products/show.aspx?id=<%#Eval("bId")%>" target="_blank">
                                     <li>
                                         <img src="/upfile/<%#Eval("bPic")%>" alt="<%#Eval("bTitle")%>" />
                                     </li>
