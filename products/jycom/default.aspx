@@ -46,10 +46,10 @@
                 <asp:Repeater ID="rpList" runat="server">
                     <ItemTemplate>
                         <dl class="<%# (Container.ItemIndex + 1)%3==0?"nomar":"" %>">
-                            <dt><a href="view/?id=<%#Eval("bId")%>" title="<%#Eval("bTitle")%>" target="_blank">
+                            <dt><a href="/products/show.aspx?id=<%#Eval("bId")%>" title="<%#Eval("bTitle")%>" target="_blank">
                                 <img src="/upfile/<%#Eval("bPic")%>" alt="<%#Eval("bTitle")%>" title="<%#Eval("bTitle")%>" /></a></dt>
                             <dd>
-                                <h3><a href="view/?id=<%#Eval("bId")%>" title="<%#Eval("bTitle")%>" target="_blank"><%#Eval("bTitle")%></a></h3>
+                                <h3><a href="/products/show.aspx?id=<%#Eval("bId")%>" title="<%#Eval("bTitle")%>" target="_blank"><%#Eval("bTitle")%></a></h3>
                                 <p></p>
                                 <i></i>
                             </dd>
