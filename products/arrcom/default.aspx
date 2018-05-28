@@ -120,7 +120,7 @@
 
                 <asp:Repeater ID="rpList" runat="server">
                     <ItemTemplate>
-                        <li class="index-one-case one-series"><a href="view/?id=<%#Eval("bId")%>">
+                        <li class="index-one-case one-series"><a href="/products/show.aspx?id=<%#Eval("bId")%>">
                             <div class="pro_imgdiv">
                                 <img class="index-case-pic delay-loading" alt="<%#Eval("bTitle")%>" src="/upfile/<%#Eval("bPic")%>" />
                             </div>
