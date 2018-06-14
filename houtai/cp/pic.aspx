@@ -41,7 +41,7 @@
                                             <asp:TextBox ID="bPic" runat="server" CssClass="textbox" Text="" Width="200px"></asp:TextBox>
                                         </td>
                                         <td>
-                                            <iframe src="../../../inc/ay_upload.aspx?fd=bPic" frameborder="0" style="height: 30px; width: 320px;"
+                                            <iframe src="../../../inc/ay_upload.aspx?fd=bPic" frameborder="0" style="height: 30px; width: 350px;"
                                                 scrolling="no"></iframe>
                                         </td>
                                     </tr>

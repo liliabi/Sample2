@@ -4,11 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>快装师</title>
-    <meta name="keywords" content=''>
-    <meta name="description" content=''>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
     <link href="images/whir_css.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="images/jquery.min.js"></script>
     <script type="text/javascript" src="images/work.js"></script>
@@ -77,12 +73,12 @@ EvPNG.fix('img,#header,.topnav,'); </script>
         <div class="brand">
             <div class="brandlist">
                 <ul>
-                    <li><a href="page.aspx?id=4">法恩莎瓷砖</a></li>
-                    <li><a href="page.aspx?id=5">法恩莎卫浴</a></li>
-                    <li><a href="page.aspx?id=6">箭牌橱柜</a></li>
-                    <li><a href="page.aspx?id=7">箭牌衣柜</a></li>
-                    <li><a href="page.aspx?id=8">万峰石材</a></li>
-                    <li><a href="page.aspx?id=9">聚佑佳皮雕</a></li>
+                    <li><a href="products/faencc/about.aspx">法恩莎瓷砖</a></li>
+                    <li><a href="products/faencn/about.aspx">法恩莎卫浴</a></li>
+                    <li><a href="products/arrcn/about.aspx">箭牌橱柜</a></li>
+                    <li><a href="products/arrcom/about.aspx">箭牌衣柜</a></li>
+                    <li><a href="products/wfcom/about.aspx">万峰石材</a></li>
+                    <li><a href="products/jycom/about.aspx">聚佑佳皮雕</a></li>
                 </ul>
             </div>
         </div>

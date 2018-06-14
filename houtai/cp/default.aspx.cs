@@ -100,7 +100,7 @@ namespace ayzhuangxiu.houtai.cp
         {
             string id = ((LinkButton)sender).CommandArgument;
             string scriptstrs = string.Empty;
-            scriptstrs = "<script>parent.parent.OpenPage('产品图库',665,400,'cp/pic.aspx?id=" + id + "','');</script>";
+            scriptstrs = "<script>parent.parent.OpenPage('产品图库',700,400,'cp/pic.aspx?id=" + id + "','');</script>";
             ScriptManager.RegisterStartupScript(this, this.GetType(), "aa", scriptstrs, false);
         }
        

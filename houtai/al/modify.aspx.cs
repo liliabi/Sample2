@@ -57,6 +57,8 @@ namespace ayzhuangxiu.houtai.al
             model.bId = (int)StringPlus.ConvertNullToZero(this.bId.Value);
             model.bTitle = this.bTitle.Text;
             model.bClassID = (int)StringPlus.ConvertNullToZero(this.bClassID.SelectedValue);
+            model.bTypeID = (int)StringPlus.ConvertNullToZero(this.bTypeID.SelectedValue);
+            model.bUrl = this.bUrl.Text;
             model.bKeywords = this.bKeywords.Text;
             model.bPic = this.bPic.Text;
             model.bIsTop = (this.bIsTop.Checked ? 1 : 0);
@@ -96,6 +98,8 @@ namespace ayzhuangxiu.houtai.al
             this.bId.Value = model.bId.ToString();
             this.bTitle.Text = model.bTitle;
             this.bClassID.SelectedValue = model.bClassID.ToString();
+            this.bTypeID.SelectedValue = model.bTypeID.ToString();
+            this.bUrl.Text = model.bUrl;
             this.bKeywords.Text = model.bKeywords;
             this.bPic.Text = model.bPic;        
             this.bClick.Text = model.bClick.ToString();
@@ -103,7 +107,24 @@ namespace ayzhuangxiu.houtai.al
             this.bIsTop.Checked = model.bIsTop.ToString() == "1" ? true : false;
             this.bIsBest.Checked = model.bIsBest.ToString() == "1" ? true : false;
             this.bIsPass.Checked = model.bIsPass.ToString() == "1" ? true : false;
-
+            if (model.bTypeID.ToString() == "1")
+            {
+                this.pnlTypeID0.Visible = true;
+                this.pnlTypeID1.Visible = false;
+            }
         }
+        protected void bTypeID_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.bTypeID.SelectedValue == "0")
+            {
+                this.pnlTypeID0.Visible = false;
+                this.pnlTypeID1.Visible = true;
+            }
+            else
+            {
+                this.pnlTypeID0.Visible = true;
+                this.pnlTypeID1.Visible = false;
+            }
+        }  
     }
 }

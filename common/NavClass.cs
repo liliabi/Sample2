@@ -9,6 +9,10 @@ namespace ayzhuangxiu.common
 {
     public class NavClass
     {
+        public static string SiteName = string.Empty;
+        public static string SiteTitle = string.Empty;
+        public static string Keywords = string.Empty;
+        public static string Descriptions = string.Empty;
         public static string LoadHeader()
         {
             StringBuilder result=new StringBuilder ();
@@ -39,7 +43,7 @@ namespace ayzhuangxiu.common
                     result.AppendLine("                <ul>");
                     foreach (DataRow drChild in drsChild)
                     {
-                        result.AppendLine("                    <li><a href=\"" + PaducnSoft.Common.StringPlus.NullToString(drChild["bUrl"]) + "\" title=\"" + PaducnSoft.Common.StringPlus.NullToString(drChild["bName"]) + "\">" + PaducnSoft.Common.StringPlus.NullToString(drChild["bName"]) + "</a></li>");
+                        result.AppendLine("                    <li><a target=\"" + PaducnSoft.Common.StringPlus.NullToString(drChild["bOpenMode"]) + "\" href=\"" + PaducnSoft.Common.StringPlus.NullToString(drChild["bUrl"]) + "\" title=\"" + PaducnSoft.Common.StringPlus.NullToString(drChild["bName"]) + "\">" + PaducnSoft.Common.StringPlus.NullToString(drChild["bName"]) + "</a></li>");
                     }                  
                     result.AppendLine("                </ul>");
                 }
@@ -68,7 +72,12 @@ namespace ayzhuangxiu.common
                 _title = PaducnSoft.Common.StringPlus.NullToString(ds.Tables[0].Rows[0]["bTitle"]);
                 _sitename = PaducnSoft.Common.StringPlus.NullToString(ds.Tables[0].Rows[0]["bName"]);
                 _company = PaducnSoft.Common.StringPlus.NullToString(ds.Tables[0].Rows[0]["bCompany"]);
-                _miibeian = PaducnSoft.Common.StringPlus.NullToString(ds.Tables[0].Rows[0]["bMiibeian"]); ;
+                _miibeian = PaducnSoft.Common.StringPlus.NullToString(ds.Tables[0].Rows[0]["bMiibeian"]);
+                SiteName = _sitename;
+                SiteTitle = _title;
+                Keywords = PaducnSoft.Common.StringPlus.NullToString(ds.Tables[0].Rows[0]["bKeywords"]);
+                Descriptions = PaducnSoft.Common.StringPlus.NullToString(ds.Tables[0].Rows[0]["bDescriptions"]); 
+
             }
 
             result.AppendLine("<div id=\"footer\">");

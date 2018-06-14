@@ -50,7 +50,7 @@
                                 <th align="center" width="60px">内部编码</th>
                                 <th align="left">名称</th>
                                 <th width="40px">排序</th>
-                                <th width="100px">更新时间</th>
+                                <th width="120px">更新时间</th>
                                 <th width="100px">操作</th>
                             </tr>
                         </thead>

@@ -11,6 +11,15 @@ namespace ayzhuangxiu.products.arrcn
         {
             this.ltHeader.Text = ayzhuangxiu.common.NavClass.LoadHeader();
             this.ltFooter.Text = ayzhuangxiu.common.NavClass.LoadFooter();
+            Page.Title = ayzhuangxiu.common.NavClass.SiteName;
+            System.Web.UI.HtmlControls.HtmlMeta metaKeyWords = new System.Web.UI.HtmlControls.HtmlMeta();
+            System.Web.UI.HtmlControls.HtmlMeta metaDescription = new System.Web.UI.HtmlControls.HtmlMeta();
+            metaKeyWords.Name = "Keywords";
+            metaKeyWords.Content = ayzhuangxiu.common.NavClass.Keywords;
+            metaDescription.Name = "description";
+            metaDescription.Content = ayzhuangxiu.common.NavClass.Descriptions;
+            Header.Controls.Add(metaKeyWords);
+            Header.Controls.Add(metaDescription);
             LoadProdClass();
             BindDataList();
         }

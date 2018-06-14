@@ -15,7 +15,17 @@ namespace ayzhuangxiu
         {
          
                 this.ltHeader.Text = ayzhuangxiu.common.NavClass.LoadHeader();
-                this.ltFooter.Text = ayzhuangxiu.common.NavClass.LoadFooter();                
+                this.ltFooter.Text = ayzhuangxiu.common.NavClass.LoadFooter();
+                Page.Title = ayzhuangxiu.common.NavClass.SiteName + "-" + ayzhuangxiu.common.NavClass.SiteTitle;
+                System.Web.UI.HtmlControls.HtmlMeta metaKeyWords = new System.Web.UI.HtmlControls.HtmlMeta();
+                System.Web.UI.HtmlControls.HtmlMeta metaDescription = new System.Web.UI.HtmlControls.HtmlMeta();
+                metaKeyWords.Name = "Keywords";
+                metaKeyWords.Content = ayzhuangxiu.common.NavClass.Keywords;
+                metaDescription.Name = "description";
+                metaDescription.Content = ayzhuangxiu.common.NavClass.Descriptions;
+                Header.Controls.Add(metaKeyWords);
+                Header.Controls.Add(metaDescription); 
+
                 LoadBannerList();
                 LoadNewsList();
                 this.LoadAboutUS();
@@ -77,7 +87,7 @@ namespace ayzhuangxiu
         {
             StringBuilder result = new StringBuilder();
             result.Clear();
-            string tsql = "select top 10 t.* from ay_products_v t where (t.bClassID=" + classid + " or t.bParentID=" + classid + ") order by t.bAddTime desc,t.bId desc";
+            string tsql = "select top 6 t.* from ay_products_v t where (t.bClassID=" + classid + " or t.bParentID=" + classid + ") order by t.bAddTime desc,t.bId desc";
             DataTable dt = PaducnSoft.DBUtility.DbHelperOleDb.Query(tsql).Tables[0];
             result.AppendLine("<div class=\"blk_1\">");
             result.AppendLine("    <a class=\"LeftBotton\" onmousedown=\"ISL_GoUp_" + tabid + "()\" onmouseup=\"ISL_StopUp_" + tabid + "()\" onmouseout=\"ISL_StopUp_" + tabid + "()\" href=\"javascript:void(0);\" target=\"_self\"></a>");

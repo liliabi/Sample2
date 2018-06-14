@@ -939,7 +939,7 @@ select {
 
 .dropdownlist {
     font-size: 12px;
-    padding: 1px 2px 0px 2px;
+    padding: 0px 2px 0px 2px;
     line-height: 24px;
     height: 28px;
 }

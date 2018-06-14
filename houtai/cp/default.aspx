@@ -63,7 +63,7 @@
                                 </th>
                                 <th style="text-align: left;">标题
                                 </th>
-                                <th width="100px">更新时间
+                                <th width="120px">更新时间
                                 </th>
                                 <th width="50px">点击量
                                 </th>

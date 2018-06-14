@@ -54,6 +54,8 @@ namespace ayzhuangxiu.houtai.al
             PaducnSoft.Model.ay_case model = new PaducnSoft.Model.ay_case();
             model.bTitle = this.bTitle.Text;
             model.bClassID = (int)StringPlus.ConvertNullToZero(this.bClassID.SelectedValue);
+            model.bTypeID = (int)StringPlus.ConvertNullToZero(this.bTypeID.SelectedValue);
+            model.bUrl = this.bUrl.Text;
             model.bKeywords = this.bKeywords.Text;
             model.bPic = this.bPic.Text;
             model.bIsTop = (this.bIsTop.Checked?1:0);
@@ -89,6 +91,8 @@ namespace ayzhuangxiu.houtai.al
             this.bClassID.DataSource = dsClass;
             this.bClassID.DataBind();
             this.bClassID.Items.Insert(0, new ListItem("----选择分类----", "0"));
+            this.bTypeID.SelectedValue = "0";
+            this.bUrl.Text = "";
             this.bKeywords.Text = "";
             this.bPic.Text = "";
             this.bIsTop.Checked = false;
@@ -97,6 +101,20 @@ namespace ayzhuangxiu.houtai.al
             this.bClick.Text = "0";
             this.bContent.Text = "";
             ScriptManager1.SetFocus(this.bTitle);
+        }
+
+        protected void bTypeID_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.bTypeID.SelectedValue == "0")
+            {
+                this.pnlTypeID0.Visible = false;
+                this.pnlTypeID1.Visible = true;
+            }
+            else
+            {
+                this.pnlTypeID0.Visible = true;
+                this.pnlTypeID1.Visible = false;
+            }
         }  
     }
 }

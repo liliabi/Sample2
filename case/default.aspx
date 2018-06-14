@@ -115,7 +115,7 @@
                 <asp:Repeater ID="rpList" runat="server">
                     <ItemTemplate>
                         <div class="casesshow">
-                            <a href="view/?id=<%#Eval("bId")%>" class="pirobox_gall demo" title="<%#Eval("bTitle")%>" rev="0">
+                            <a target="_blank" href='<%# (PaducnSoft.Common.Utils.NullToString(Eval("bTypeID"))=="1")?PaducnSoft.Common.Utils.NullToString(Eval("bUrl")): "view/?id=" + Eval("bId").ToString() %>' class="pirobox_gall demo" title="<%#Eval("bTitle")%>" rev="0">
                                 <img src="/upfile/<%#Eval("bPic")%>" width="275" height="220">
                                 <div><%#Eval("bTitle")%></div>
                             </a>

@@ -12,18 +12,18 @@
     <link type="text/css" rel="stylesheet" href="../images/style.css" />
     <script type="text/javascript" src="../images/util.js"></script>
     <script src="../../My97DatePicker/WdatePicker.js" type="text/javascript"></script>
-    <script charset="utf-8" src="../../editor/kindeditor-all-min.js"></script>    
+    <script charset="utf-8" src="../../editor/kindeditor-all-min.js"></script>
 </head>
 <body>
     <form id="form1" runat="server" autocomplete="off" style="margin: 0; padding: 0;">
         <div class="main-wrap">
-            <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="90000" >
+            <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="90000">
             </asp:ScriptManager>
-            <asp:UpdatePanel ID="UpdatePanel1" runat="server">  
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                 <Triggers>
                     <asp:PostBackTrigger ControlID="btnSubmit" />
                 </Triggers>
-                <ContentTemplate>   
+                <ContentTemplate>
                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                         <tr height="40">
                             <td width="20" valign="middle">
@@ -94,13 +94,35 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="hback_1" valign="top" nowrap>内容：
+                            <td width="90px" class="hback_1">案例类型：
                             </td>
-                            <td colspan="3" class="hback">
-                                <asp:TextBox ID="bContent" runat="server" TextMode="MultiLine" Style="width: 100%; height: 390px;"
-                                    CssClass="textbox"></asp:TextBox>
+                            <td class="hback" colspan="3">
+                                <asp:RadioButtonList ID="bTypeID" runat="server" RepeatColumns="2" OnSelectedIndexChanged="bTypeID_SelectedIndexChanged" AutoPostBack="true">
+                                    <asp:ListItem Value="0" Selected="True">图文</asp:ListItem>
+                                    <asp:ListItem Value="1">网址连接</asp:ListItem>
+                                </asp:RadioButtonList>
                             </td>
                         </tr>
+                        <asp:Panel ID="pnlTypeID0" runat="server" Visible="false">
+                            <tr>
+                                <td nowrap class="hback_1">
+                                    <span class="red">连接地址：</span>
+                                </td>
+                                <td class="hback" colspan="3">
+                                    <asp:TextBox ID="bUrl" runat="server" Width="98%" CssClass="textbox"></asp:TextBox>
+                                </td>
+                            </tr>
+                        </asp:Panel>
+                        <asp:Panel ID="pnlTypeID1" runat="server">
+                            <tr>
+                                <td class="hback_1" valign="top" nowrap>内容：
+                            </td>
+                                <td colspan="3" class="hback">
+                                    <asp:TextBox ID="bContent" runat="server" TextMode="MultiLine" Style="width: 100%; height: 390px;"
+                                        CssClass="textbox"></asp:TextBox>
+                                </td>
+                            </tr>
+                        </asp:Panel>
                     </table>
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
                         <tr>
@@ -108,7 +130,8 @@
                             <td>
                                 <asp:HiddenField ID="bId" runat="server" />
                                 <asp:Button ID="btnSubmit" runat="server" Text="  提交  " CssClass="buttonblue" OnClick="btnSubmit_Click" />&nbsp;&nbsp;&nbsp;
-                                    <asp:Button ID="btnReset" runat="server" Text="  重置  " CssClass="buttonblue" OnClick="btnReset_Click"/>
+                                   
+                                <asp:Button ID="btnReset" runat="server" Text="  重置  " CssClass="buttonblue" OnClick="btnReset_Click" />
                             </td>
                         </tr>
                     </table>

@@ -58,7 +58,7 @@
                                 <th style="text-align: left;">标题
                                 </th>
                                 <th width="40px">排序</th>
-                                <th width="100px">更新时间
+                                <th width="120px">更新时间
                                 </th>
                                 
                                 <th width="100px">操作

@@ -14,18 +14,18 @@ namespace Kuaizhuang
         protected void Page_Load(object sender, EventArgs e)
         {
             this.ltHeader.Text = ayzhuangxiu.common.NavClass.LoadHeader();
-            this.ltFooter.Text = ayzhuangxiu.common.NavClass.LoadFooter();  
-
-            //pageTop contact_top = new pageTop();
-            //Top.Text = contact_top.initTop();
-
-            //pageNav contact_nav = new pageNav();
-            //Nav.Text = contact_nav.initNav();
-            //loadingMenu();
-            //loadingBanner();
+            this.ltFooter.Text = ayzhuangxiu.common.NavClass.LoadFooter();
+            Page.Title = ayzhuangxiu.common.NavClass.SiteName;
+            System.Web.UI.HtmlControls.HtmlMeta metaKeyWords = new System.Web.UI.HtmlControls.HtmlMeta();
+            System.Web.UI.HtmlControls.HtmlMeta metaDescription = new System.Web.UI.HtmlControls.HtmlMeta();
+            metaKeyWords.Name = "Keywords";
+            metaKeyWords.Content = ayzhuangxiu.common.NavClass.Keywords;
+            metaDescription.Name = "description";
+            metaDescription.Content = ayzhuangxiu.common.NavClass.Descriptions;
+            Header.Controls.Add(metaKeyWords);
+            Header.Controls.Add(metaDescription);        
             Bdy.Text = initBody();
-            //pageFooter contact_footer = new pageFooter();
-            //Footer.Text = contact_footer.initFooter("2002-2018 某某装饰公司 版权所有 ICP备XXXXXXXX号");
+         
         }
 
         private string initBody()

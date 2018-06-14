@@ -121,6 +121,42 @@ namespace ayzhuangxiu.houtai.al {
         protected global::System.Web.UI.WebControls.TextBox bClick;
         
         /// <summary>
+        /// bTypeID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList bTypeID;
+        
+        /// <summary>
+        /// pnlTypeID0 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlTypeID0;
+        
+        /// <summary>
+        /// bUrl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox bUrl;
+        
+        /// <summary>
+        /// pnlTypeID1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlTypeID1;
+        
+        /// <summary>
         /// bContent control.
         /// </summary>
         /// <remarks>
