@@ -28,7 +28,7 @@ namespace ayzhuangxiu.products.arrcom
         {
             StringBuilder result = new StringBuilder();
             result.Clear();
-            string tsql = "select top 9 t.* from ay_prodclass t where bParent=34 or bParent in (select bId from ay_prodclass where bParent=34) order by t.bAddTime";
+            string tsql = "select t.* from ay_prodclass t where bParent=34 or bParent in (select bId from ay_prodclass where bParent=34) order by t.bAddTime";
             DataSet ds = PaducnSoft.DBUtility.DbHelperOleDb.Query(tsql);
 
             DataRow[] drsRoot = ds.Tables[0].Select("bParent=34", "bOrder");
