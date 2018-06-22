@@ -33,13 +33,13 @@ namespace ayzhuangxiu.thecase
             StringBuilder result = new StringBuilder();
             result.Clear();
             //string tsql = "select t.* from ay_prodclass t where bParent=26 or bParent in (select bId from ay_prodclass where bParent=26) order by t.bAddTime";
-            string tsql = "select t.* from ay_case_v t";
+            string tsql = "select t.* from ay_caseclass t";
             DataSet ds = PaducnSoft.DBUtility.DbHelperOleDb.Query(tsql);
 
             DataRow[] drsRoot = ds.Tables[0].Select("1=1");
             foreach (DataRow drRoot in drsRoot)
             {
-                result.AppendLine("<li><a href=\"./?id=" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bId"]) + "\" title=\"" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bClassName"]) + "\">" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bClassName"]) + "</a>");
+                result.AppendLine("<li><a href=\"./?id=" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bId"]) + "\" title=\"" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bName"]) + "\">" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bName"]) + "</a>");
 
                 //DataRow[] drsChild = ds.Tables[0].Select("bParent=" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bId"]), "bOrder");
                 //if (drsChild.Length > 0)
