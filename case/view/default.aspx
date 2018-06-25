@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link rel="shortcut icon" href="/images/bitbug_favicon.ico" />
     <link href="/images/whir_css.css" rel="stylesheet" type="text/css" />
     <script src="/js/jquery-1.11.3.min.js"></script>
     <script src="/images/work.js"></script>

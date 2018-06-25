@@ -8,19 +8,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <LastUsedBuildConfiguration>Debug</LastUsedBuildConfiguration>
     <LastUsedPlatform>Any CPU</LastUsedPlatform>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\John\Desktop\tmp</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="aboutus.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:29:25</publishTime>
     </File>
     <File Include="bin/AspNetPager.dll">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="bin/ayzhuangxiu.dll">
-      <publishTime>06/13/2018 22:13:46</publishTime>
+      <publishTime>06/25/2018 22:39:02</publishTime>
     </File>
     <File Include="bin/ayzhuangxiu.pdb">
-      <publishTime>06/13/2018 22:13:46</publishTime>
+      <publishTime>06/25/2018 22:39:02</publishTime>
     </File>
     <File Include="bin/LitJSON.dll">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -44,13 +45,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="case/default.aspx">
-      <publishTime>06/13/2018 22:13:43</publishTime>
+      <publishTime>06/25/2018 22:30:32</publishTime>
     </File>
     <File Include="case/style.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="case/view/default.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:30:26</publishTime>
     </File>
     <File Include="code.aspx">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -59,13 +60,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="contact.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:26:55</publishTime>
     </File>
     <File Include="css/3dlist.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="css/about_us.css">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:36:14</publishTime>
     </File>
     <File Include="css/animate.min.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -95,7 +96,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="css/faencc.css">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/19/2018 22:40:49</publishTime>
     </File>
     <File Include="css/faenza.com.cn.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -146,7 +147,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="default.aspx">
-      <publishTime>06/12/2018 16:28:40</publishTime>
+      <publishTime>06/25/2018 22:24:18</publishTime>
     </File>
     <File Include="editor/kindeditor-all-min.js">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -1144,6 +1145,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="images/bannerbtn.png">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
+    <File Include="images/bitbug_favicon.ico">
+      <publishTime>06/25/2018 22:22:37</publishTime>
+    </File>
     <File Include="images/bj.png">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
@@ -1439,7 +1443,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="images/whir_css.css">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 21:13:51</publishTime>
     </File>
     <File Include="images/work.js">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -1562,16 +1566,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="mydata/data.mdb">
-      <publishTime>06/13/2018 22:13:00</publishTime>
+      <publishTime>06/25/2018 21:51:51</publishTime>
     </File>
     <File Include="news/default.aspx">
-      <publishTime>06/08/2018 18:13:26</publishTime>
+      <publishTime>06/25/2018 22:31:16</publishTime>
     </File>
     <File Include="news/style.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="news/view/default.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:31:15</publishTime>
     </File>
     <File Include="picture/1-1fp42121580-l.jpg">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -2333,31 +2337,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="products/amandi/default.aspx">
-      <publishTime>06/08/2018 17:57:49</publishTime>
+      <publishTime>06/25/2018 22:32:38</publishTime>
     </File>
     <File Include="products/arrcn/about.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:38</publishTime>
     </File>
     <File Include="products/arrcn/default.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:38</publishTime>
     </File>
     <File Include="products/arrcn/style.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="products/arrcom/about.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:38</publishTime>
     </File>
     <File Include="products/arrcom/default.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:38</publishTime>
     </File>
     <File Include="products/arrcom/style.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="products/faencc/about.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:38</publishTime>
     </File>
     <File Include="products/faencc/default.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:38</publishTime>
     </File>
     <File Include="products/faencc/style.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -2366,19 +2370,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="products/faencn/about.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:37</publishTime>
     </File>
     <File Include="products/faencn/default.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:37</publishTime>
     </File>
     <File Include="products/faencn/style.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="products/jycom/about.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:37</publishTime>
     </File>
     <File Include="products/jycom/default.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:37</publishTime>
     </File>
     <File Include="products/jycom/resetcommon.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -2387,28 +2391,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="products/show.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:27:08</publishTime>
     </File>
     <File Include="products/wfcom/about.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:37</publishTime>
     </File>
     <File Include="products/wfcom/default.aspx">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/25/2018 22:32:37</publishTime>
     </File>
     <File Include="upfile/2018050616500893.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:17:29</publishTime>
     </File>
     <File Include="upfile/2018050722475160.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:16:37</publishTime>
     </File>
     <File Include="upfile/2018050808414106.png">
       <publishTime>05/18/2018 08:48:02</publishTime>
     </File>
     <File Include="upfile/2018050808442804.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:17:32</publishTime>
     </File>
     <File Include="upfile/2018051009252318.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:17:09</publishTime>
     </File>
     <File Include="upfile/2018051009293725.png">
       <publishTime>05/18/2018 08:48:02</publishTime>
@@ -2417,595 +2421,595 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/18/2018 08:48:02</publishTime>
     </File>
     <File Include="upfile/2018051009310057.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:17:09</publishTime>
     </File>
     <File Include="upfile/2018051009311266.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:17:40</publishTime>
     </File>
     <File Include="upfile/2018051009311845.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:17:29</publishTime>
     </File>
     <File Include="upfile/2018051009312557.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:37:14</publishTime>
     </File>
     <File Include="upfile/2018051009313597.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:17:32</publishTime>
     </File>
     <File Include="upfile/2018051009314544.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:37:14</publishTime>
     </File>
     <File Include="upfile/2018051009315693.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:17:40</publishTime>
     </File>
     <File Include="upfile/2018051419385313.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:14</publishTime>
     </File>
     <File Include="upfile/2018051419390894.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:02</publishTime>
     </File>
     <File Include="upfile/2018051419392471.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:33</publishTime>
     </File>
     <File Include="upfile/2018051419393609.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:03</publishTime>
     </File>
     <File Include="upfile/2018051419511587.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:06</publishTime>
     </File>
     <File Include="upfile/2018051518143251.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:17</publishTime>
     </File>
     <File Include="upfile/2018051518145159.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:52</publishTime>
     </File>
     <File Include="upfile/2018051518150242.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:37</publishTime>
     </File>
     <File Include="upfile/2018051518152032.JPG">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:40</publishTime>
     </File>
     <File Include="upfile/2018051518172460.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:42</publishTime>
     </File>
     <File Include="upfile/2018051518174096.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:18:45</publishTime>
     </File>
     <File Include="upfile/2018051518174988.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:17</publishTime>
     </File>
     <File Include="upfile/2018051518175661.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:06</publishTime>
     </File>
     <File Include="upfile/2018051518180261.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:37:17</publishTime>
     </File>
     <File Include="upfile/2018051518193229.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:21</publishTime>
     </File>
     <File Include="upfile/2018051518195175.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:55</publishTime>
     </File>
     <File Include="upfile/2018051518204037.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:24</publishTime>
     </File>
     <File Include="upfile/2018051518211710.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:28</publishTime>
     </File>
     <File Include="upfile/2018051518235353.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:31</publishTime>
     </File>
     <File Include="upfile/2018051518241318.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:34</publishTime>
     </File>
     <File Include="upfile/2018051518241999.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:20:29</publishTime>
     </File>
     <File Include="upfile/2018051518242656.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:19:58</publishTime>
     </File>
     <File Include="upfile/2018051518243270.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:37:18</publishTime>
     </File>
     <File Include="upfile/2018051518243889.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:20:54</publishTime>
     </File>
     <File Include="upfile/2018051518244493.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:21:05</publishTime>
     </File>
     <File Include="upfile/2018051518254247.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:20:59</publishTime>
     </File>
     <File Include="upfile/2018051518260535.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:21:35</publishTime>
     </File>
     <File Include="upfile/2018051518265839.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:22:12</publishTime>
     </File>
     <File Include="upfile/2018051518272117.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:21:08</publishTime>
     </File>
     <File Include="upfile/2018051518272771.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:21:11</publishTime>
     </File>
     <File Include="upfile/2018051518281663.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:21:47</publishTime>
     </File>
     <File Include="upfile/2018051518283740.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:21:37</publishTime>
     </File>
     <File Include="upfile/2018051518284380.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:21:40</publishTime>
     </File>
     <File Include="upfile/2018051519291310.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:21:43</publishTime>
     </File>
     <File Include="upfile/2018051519295984.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:22:35</publishTime>
     </File>
     <File Include="upfile/2018051519310725.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:22:29</publishTime>
     </File>
     <File Include="upfile/2018051519315541.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:22:14</publishTime>
     </File>
     <File Include="upfile/2018051519330048.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:22:38</publishTime>
     </File>
     <File Include="upfile/2018051519334341.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:07</publishTime>
     </File>
     <File Include="upfile/2018051519342669.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:22:41</publishTime>
     </File>
     <File Include="upfile/2018051519360933.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:10</publishTime>
     </File>
     <File Include="upfile/2018051519382420.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:14</publishTime>
     </File>
     <File Include="upfile/2018051519390934.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:41</publishTime>
     </File>
     <File Include="upfile/2018051519410904.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:10</publishTime>
     </File>
     <File Include="upfile/2018051519413782.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:14</publishTime>
     </File>
     <File Include="upfile/2018051519422524.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:16</publishTime>
     </File>
     <File Include="upfile/2018051519430752.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:16</publishTime>
     </File>
     <File Include="upfile/2018051519520489.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:19</publishTime>
     </File>
     <File Include="upfile/2018051519534488.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:17</publishTime>
     </File>
     <File Include="upfile/2018051519535143.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:18</publishTime>
     </File>
     <File Include="upfile/2018051519540006.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:20</publishTime>
     </File>
     <File Include="upfile/2018051519540747.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:20</publishTime>
     </File>
     <File Include="upfile/2018051519541346.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:21</publishTime>
     </File>
     <File Include="upfile/2018051519541961.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:21</publishTime>
     </File>
     <File Include="upfile/2018051519542589.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:22</publishTime>
     </File>
     <File Include="upfile/2018051519543123.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:22</publishTime>
     </File>
     <File Include="upfile/2018051519572947.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:24</publishTime>
     </File>
     <File Include="upfile/2018051519575960.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:24</publishTime>
     </File>
     <File Include="upfile/2018051519580907.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:25</publishTime>
     </File>
     <File Include="upfile/2018051519582039.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:26</publishTime>
     </File>
     <File Include="upfile/2018051519582970.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:26</publishTime>
     </File>
     <File Include="upfile/2018051519593356.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:28</publishTime>
     </File>
     <File Include="upfile/2018051520002060.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:27</publishTime>
     </File>
     <File Include="upfile/2018051520013594.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:28</publishTime>
     </File>
     <File Include="upfile/2018051520020203.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:29</publishTime>
     </File>
     <File Include="upfile/2018051520020705.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:30</publishTime>
     </File>
     <File Include="upfile/2018051520021197.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:30</publishTime>
     </File>
     <File Include="upfile/2018051520021771.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:31</publishTime>
     </File>
     <File Include="upfile/2018051520022661.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:32</publishTime>
     </File>
     <File Include="upfile/2018051520040801.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:34</publishTime>
     </File>
     <File Include="upfile/2018051520045759.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:32</publishTime>
     </File>
     <File Include="upfile/2018051520050393.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:33</publishTime>
     </File>
     <File Include="upfile/2018051520051027.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:37</publishTime>
     </File>
     <File Include="upfile/2018051520051543.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:35</publishTime>
     </File>
     <File Include="upfile/2018051520052614.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:23:35</publishTime>
     </File>
     <File Include="upfile/aobeier.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:13</publishTime>
     </File>
     <File Include="upfile/APGM9G3209-C.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:10</publishTime>
     </File>
     <File Include="upfile/arrcnabout.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:16</publishTime>
     </File>
     <File Include="upfile/arrowbanner.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:15</publishTime>
     </File>
     <File Include="upfile/arrowcomabout.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:16</publishTime>
     </File>
     <File Include="upfile/arrowkitchenbanner.JPG">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:17</publishTime>
     </File>
     <File Include="upfile/AV001.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:17</publishTime>
     </File>
     <File Include="upfile/AV002.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:17</publishTime>
     </File>
     <File Include="upfile/AV003.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:17</publishTime>
     </File>
     <File Include="upfile/AV004.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:18</publishTime>
     </File>
     <File Include="upfile/AV005.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:18</publishTime>
     </File>
     <File Include="upfile/AV008AB.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:18</publishTime>
     </File>
     <File Include="upfile/ayida.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:23</publishTime>
     </File>
     <File Include="upfile/baiyuyingsha.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:19</publishTime>
     </File>
     <File Include="upfile/baomashijia.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:21</publishTime>
     </File>
     <File Include="upfile/canbianjiugui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:22</publishTime>
     </File>
     <File Include="upfile/chanxiangju.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:25</publishTime>
     </File>
     <File Include="upfile/chanxiangsiyi.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:25</publishTime>
     </File>
     <File Include="upfile/chengduruisheng.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:26</publishTime>
     </File>
     <File Include="upfile/chunpa.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:33</publishTime>
     </File>
     <File Include="upfile/chunxiaqiudong.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:30</publishTime>
     </File>
     <File Include="upfile/classify-ico2.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:29</publishTime>
     </File>
     <File Include="upfile/dougui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:31</publishTime>
     </File>
     <File Include="upfile/dougui2.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:37:12</publishTime>
     </File>
     <File Include="upfile/F1E9022C.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:36</publishTime>
     </File>
     <File Include="upfile/F3C9022C.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:30:55</publishTime>
     </File>
     <File Include="upfile/F3M9025SC.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:36</publishTime>
     </File>
     <File Include="upfile/F7T9022C.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:36</publishTime>
     </File>
     <File Include="upfile/faenccproduction.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:36</publishTime>
     </File>
     <File Include="upfile/faenzaccabout.JPG">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:36</publishTime>
     </File>
     <File Include="upfile/faenzaccabout1.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:36</publishTime>
     </File>
     <File Include="upfile/faenzaccabout2.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:36</publishTime>
     </File>
     <File Include="upfile/faenzacnabout.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:37</publishTime>
     </File>
     <File Include="upfile/faenzacomcnproduction.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:37</publishTime>
     </File>
     <File Include="upfile/FC010A18-1.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:37</publishTime>
     </File>
     <File Include="upfile/FC011A18-1.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:37</publishTime>
     </File>
     <File Include="upfile/FL18D42A.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:37</publishTime>
     </File>
     <File Include="upfile/FL23L31-1.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:37</publishTime>
     </File>
     <File Include="upfile/FL23S31-1.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:37</publishTime>
     </File>
     <File Include="upfile/FL25P21.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:38</publishTime>
     </File>
     <File Include="upfile/FL25P42.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:38</publishTime>
     </File>
     <File Include="upfile/fouguangyuejin.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:38</publishTime>
     </File>
     <File Include="upfile/FV001Q-1.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:38</publishTime>
     </File>
     <File Include="upfile/FV017H.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:38</publishTime>
     </File>
     <File Include="upfile/FW026Q.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:38</publishTime>
     </File>
     <File Include="upfile/gangshichanpin.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:38</publishTime>
     </File>
     <File Include="upfile/geduangui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:39</publishTime>
     </File>
     <File Include="upfile/gongchenganli.jpg">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="upfile/guodaogui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:39</publishTime>
     </File>
     <File Include="upfile/haomiaocangqiong.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:29:39</publishTime>
     </File>
     <File Include="upfile/houdezaiwu.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:30:55</publishTime>
     </File>
     <File Include="upfile/huaquezhaoxi.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:07</publishTime>
     </File>
     <File Include="upfile/huashimei.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:04</publishTime>
     </File>
     <File Include="upfile/image/20180506/20180506093516_6745.png">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="upfile/jianaiboti.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:07</publishTime>
     </File>
     <File Include="upfile/jianaichunhua.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:09</publishTime>
     </File>
     <File Include="upfile/jianaihaitangxiuchun.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:17</publishTime>
     </File>
     <File Include="upfile/jianaihuachu.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:17</publishTime>
     </File>
     <File Include="upfile/jianailuyi.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:13</publishTime>
     </File>
     <File Include="upfile/jianaimeiershe.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:20</publishTime>
     </File>
     <File Include="upfile/jianaishengjie.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:23</publishTime>
     </File>
     <File Include="upfile/jianaishengtang.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:26</publishTime>
     </File>
     <File Include="upfile/jianpaiyiguiabout.JPG">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:21</publishTime>
     </File>
     <File Include="upfile/jidiliange.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:22</publishTime>
     </File>
     <File Include="upfile/jiguang.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:25</publishTime>
     </File>
     <File Include="upfile/jingdianbaimeigui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:26</publishTime>
     </File>
     <File Include="upfile/jingdianshaanna.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:26</publishTime>
     </File>
     <File Include="upfile/jiugui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:37:14</publishTime>
     </File>
     <File Include="upfile/jycomaboutbanner.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:37:14</publishTime>
     </File>
     <File Include="upfile/jyjpgbanner.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:46</publishTime>
     </File>
     <File Include="upfile/jz_case_ico01.gif">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:47</publishTime>
     </File>
     <File Include="upfile/jz_case_ico02.gif">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:31:47</publishTime>
     </File>
     <File Include="upfile/jz_case_ico03.gif">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:50</publishTime>
     </File>
     <File Include="upfile/jz_case_ico04.gif">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:31</publishTime>
     </File>
     <File Include="upfile/jz_case_ico05.gif">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:31</publishTime>
     </File>
     <File Include="upfile/kaxibai.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:33</publishTime>
     </File>
     <File Include="upfile/laluohui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:36</publishTime>
     </File>
     <File Include="upfile/lantinghui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:39</publishTime>
     </File>
     <File Include="upfile/luokekebianzouqu.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:42</publishTime>
     </File>
     <File Include="upfile/pinanfugui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:45</publishTime>
     </File>
     <File Include="upfile/pinpaizixun.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:46</publishTime>
     </File>
     <File Include="upfile/pro.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:47</publishTime>
     </File>
     <File Include="upfile/pro_more.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:47</publishTime>
     </File>
     <File Include="upfile/qiandaohuguang.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:49</publishTime>
     </File>
     <File Include="upfile/qingdi.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:54</publishTime>
     </File>
     <File Include="upfile/qiubite.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:52</publishTime>
     </File>
     <File Include="upfile/sangta.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:59</publishTime>
     </File>
     <File Include="upfile/shandianmihuang.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:59</publishTime>
     </File>
     <File Include="upfile/shanhaijian.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:05</publishTime>
     </File>
     <File Include="upfile/shiyingshichanpin.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:32:59</publishTime>
     </File>
     <File Include="upfile/shuxingdanyue.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:00</publishTime>
     </File>
     <File Include="upfile/shuzhuangtai.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:02</publishTime>
     </File>
     <File Include="upfile/tiansheng.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:06</publishTime>
     </File>
     <File Include="upfile/tulanduo.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:34:13</publishTime>
     </File>
     <File Include="upfile/wangyue.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:39</publishTime>
     </File>
     <File Include="upfile/wfaboutbanner.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:34:13</publishTime>
     </File>
     <File Include="upfile/wfbanner.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:40</publishTime>
     </File>
     <File Include="upfile/wfcompanybg.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:41</publishTime>
     </File>
     <File Include="upfile/xinpinshangshi.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:42</publishTime>
     </File>
     <File Include="upfile/xinshengmiershi.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:42</publishTime>
     </File>
     <File Include="upfile/xinsiwuyu.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:45</publishTime>
     </File>
     <File Include="upfile/xinyilishabai.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:45</publishTime>
     </File>
     <File Include="upfile/xueyuanliezong.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:45</publishTime>
     </File>
     <File Include="upfile/yangtaigui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:46</publishTime>
     </File>
     <File Include="upfile/yigui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:46</publishTime>
     </File>
     <File Include="upfile/yiluoxiang.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:48</publishTime>
     </File>
     <File Include="upfile/yinhaishenghua.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:49</publishTime>
     </File>
     <File Include="upfile/yixingchanpin.png">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:49</publishTime>
     </File>
     <File Include="upfile/yuanmanqinghua.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:53</publishTime>
     </File>
     <File Include="upfile/yuansemengxiang.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:53</publishTime>
     </File>
     <File Include="upfile/yunjianmuxi.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:53</publishTime>
     </File>
     <File Include="upfile/yunlvbalei.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:56</publishTime>
     </File>
     <File Include="upfile/zhuangshigui.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:57</publishTime>
     </File>
     <File Include="upfile/ziyougediao.jpg">
-      <publishTime>05/28/2018 07:55:38</publishTime>
+      <publishTime>06/13/2018 22:33:59</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/13/2018 22:15:24</publishTime>
+      <publishTime>06/25/2018 22:39:08</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -8,6 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
     <title>快装师</title>
+    <link rel="shortcut icon" href="/images/bitbug_favicon.ico" />
     <link href="../../css/faencc.css" rel="stylesheet" />
     <link href="../../images/whir_css.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="../../images/jquery.min.js"></script>

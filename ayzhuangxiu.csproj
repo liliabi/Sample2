@@ -466,6 +466,7 @@
     <Content Include="images\arrowhover_right.png" />
     <Content Include="images\bannerbg.jpg" />
     <Content Include="images\bannerbtn.png" />
+    <Content Include="images\bitbug_favicon.ico" />
     <Content Include="images\bj.png" />
     <Content Include="images\bottombg.jpg" />
     <Content Include="images\brand.jpg" />

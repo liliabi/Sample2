@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -23,6 +25,22 @@ namespace Kuaizhuang
             metaDescription.Content = ayzhuangxiu.common.NavClass.Descriptions;
             Header.Controls.Add(metaKeyWords);
             Header.Controls.Add(metaDescription);
+            LoadAboutUS();
+        }
+
+        protected void LoadAboutUS()
+        {
+            StringBuilder result = new StringBuilder();
+            result.Clear();
+            string tsql = "select t.* from ay_page t where bId=1";
+            DataTable dt = PaducnSoft.DBUtility.DbHelperOleDb.Query(tsql).Tables[0];
+            if (dt.Rows.Count > 0)
+            {
+                DataRow dr = dt.Rows[0];
+                result.AppendLine(PaducnSoft.Common.Utils.HtmlDecode(PaducnSoft.Common.StringPlus.NullToString(dr["bContent"])));
+
+            }
+            this.ltaboutus.Text = result.ToString();
         }
     }
 }

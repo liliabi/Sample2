@@ -219,7 +219,7 @@ a {
 .fullSlide {
     width: 100%;
     position: relative;
-    height: 400px;
+    height: 450px;
     /*top:92px;*/
 }
 
@@ -236,7 +236,7 @@ a {
 
         .fullSlide .bd li {
             width: 100% !important;
-            height: 400px;
+            height: 450px;
             width: 100%;
             overflow: hidden;
             text-align: center;
@@ -244,7 +244,7 @@ a {
 
             .fullSlide .bd li a {
                 display: block;
-                height: 400px;
+                height: 450px;
             }
 
     .fullSlide .hd {
@@ -309,15 +309,17 @@ a {
 /***about***/
 .about {
     width: 1000px;
-    height: 485px;
+    height: 400px;
     margin: 0 auto;
 }
 
 .aboutimg {
     width: 330px;
-    height: 395px;
+    height: 400px;
     float: left;
-    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: Center;
 }
 
 .aboutcon {

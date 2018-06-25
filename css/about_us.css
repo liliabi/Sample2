@@ -58,10 +58,10 @@
 .corporate_culture .corporate_wrap .corporate_text .our_idea{border: none;line-height: 30px;}
 .brand_banner{width: 100%;height: auto;margin:0px auto;}
 .brand_banner img{width:100%;height: auto;display: block;}
-.brand_content{width: 100%;margin-bottom: 20px;}
+.brand_content{width: 100%;margin-bottom: 20px;min-height: 600px;}
 .content_1200{width: 1200px;margin: 0 auto;}
-.content_center {width:700px;margin:30px 200px 0; position:absolute;overflow: hidden;line-height: 30px;font-size: 16px;}
-.brand_1_box{width: 100%;height: 566px;background:url(../images/brand_1_bg.png);}
+.content_center {width:700px;margin:30px 200px 0;  overflow: hidden;line-height: 30px;font-size: 16px;}
+.brand_1_box{width: 100%;}
 .brand_1_info{color:#515151;font-size: 14px;position: absolute;text-indent: 20px;}
 .brand_2_box{width: 100%;height: 795px;background:url(../images/brand_2_bg.png);}
 .brand_3_box{width: 100%;height: 1073px;background:url(../images/brand_3_bg.png);}
@@ -70,10 +70,10 @@
 .brand_4_box{width: 100%;height: 1200px;background:url(../images/brand_4_bg.png);}
 .brand_5_box{width: 100%;height: 729px;background:url(../images/brand_5_bg.png);}
 
-.conn_box{background:#fff; height:250px; padding:20px; margin:30px auto; width:1160px;}
+.conn_box{background:#fff; height:250px; padding:20px; margin:0 auto; width:1160px;}
 .conn_rr{float:right; width:500px;}
 .conn_ll{float:left; width:400px; font-size:14px; margin-left:200px;}
-.conn_ll h2{font-size:30px;color:#333; margin-bottom:15px; font-weight:normal}
+.conn_ll h2{font-size:28px;color:#333; margin-bottom:15px; font-weight:normal}
 .conn_ll .conn_address{ padding-left:30px; line-height:30px; margin:4px 0 0; background:url(../images/conn_dot01.png) left 9px no-repeat; }
 .conn_ll .conn_tel{padding-left:30px; line-height:30px; margin:4px 0 0; background:url(../images/conn_dot02.png) left 9px no-repeat; }
 .conn_ll .conn_email{padding-left:30px; line-height:30px; margin:4px 0 0; background:url(../images/conn_dot03.png) left 9px no-repeat; }

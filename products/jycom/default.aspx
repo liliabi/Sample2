@@ -6,6 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>快装师</title>
+    <link rel="shortcut icon" href="/images/bitbug_favicon.ico" />
     <link href="/css/jyjpgcommon.css" rel="stylesheet" />
     <link href="/css/jyjpg.css" rel="stylesheet" />
     <link href="/images/whir_css.css" rel="stylesheet" type="text/css" />

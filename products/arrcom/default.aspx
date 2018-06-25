@@ -6,6 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>快装师</title>
+    <link rel="shortcut icon" href="/images/bitbug_favicon.ico" />
     <link href="/css/arrowwardrobe.css" rel="stylesheet" />
 
     <script src="/js/arrowwardrobe.js"></script>

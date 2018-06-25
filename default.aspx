@@ -4,6 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <title>快装师</title>
+    <link rel="shortcut icon" href="images/bitbug_favicon.ico" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
     <link href="images/whir_css.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="images/jquery.min.js"></script>
@@ -58,14 +60,14 @@ EvPNG.fix('img,#header,.topnav,'); </script>
         <!--关于我们-->
         <div class="about">
             <div class="aboutimg">
-                <img src="images/about_img.jpg" width="330" style="vertical-align: middle;" />
+                <img src="images/about_img.jpg" width="260" style="vertical-align: middle;" />
             </div>
             <div class="aboutcon">
                 <div class="title">
                     <img src="images/aboutt.jpg" />
                 </div>
                 <div class="aboutinfo">
-                    <p><asp:Literal ID="ltaboutus" runat="server"></asp:Literal></p>                   
+                    <p><a href="aboutus.aspx"><asp:Literal ID="ltaboutus" runat="server"></asp:Literal></a></p>                   
                 </div>
             </div>
         </div>
