@@ -70,7 +70,7 @@ namespace Kuaizhuang
             sb.AppendLine("                            客服QQ：" + dr["bcontact"].ToString() + "");
             sb.AppendLine("                        </div>");
             sb.AppendLine("                        <div class=\"conn_address\">");
-            sb.AppendLine("                            地址：广东省xxxxxxx经济开发区xxxxx");
+            sb.AppendLine("                            地址：" + dr["address"].ToString() + "");
             sb.AppendLine("                        </div>");
             sb.AppendLine("                        ");
             sb.AppendLine("                    </div>");
