@@ -51,7 +51,7 @@ namespace Kuaizhuang
             sb.AppendLine("                            <div style=\"padding-left:15px;\"><span>");
             sb.AppendLine("                                微信公众号");
             sb.AppendLine("                            </span></div>");
-            sb.AppendLine("                            <div><img src=\"picture/footer_erweima.jpg\" title=\"官方微信\" alt=\"官方微信\" style=\"width:200px;\" /></div>   ");
+            sb.AppendLine("                            <div><img src=\"images/wx.png\" title=\"官方微信\" alt=\"官方微信\" style=\"width:200px;\" /></div>   ");
             sb.AppendLine("                        </div>                    ");
             sb.AppendLine("                    </div>");
 
