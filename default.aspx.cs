@@ -32,9 +32,9 @@ namespace ayzhuangxiu
                 this.ltprod1.Text = this.LoadProductList(1,"1","products/faencc/");
                 this.ltprod2.Text = this.LoadProductList(2, "17", "products/faencn/");
                 this.ltprod3.Text = this.LoadProductList(3, "26", "products/arrcn/");
-                this.ltprod4.Text = this.LoadProductList(4, "34", "products/arrcom/");
-                this.ltprod5.Text = this.LoadProductList(5, "49", "products/wfcom/");
-                this.ltprod6.Text = this.LoadProductList(6, "70", "products/jycom/");
+                this.ltprod4.Text = this.LoadProductList(4, "35", "products/arrcom/");
+                this.ltprod5.Text = this.LoadProductList(5, "50", "products/wfcom/");
+                this.ltprod6.Text = this.LoadProductList(6, "71", "products/jycom/");
            
         }
 
