@@ -84,7 +84,7 @@
             //创建地图函数：
             function createMap() {
                 var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-                var point = new BMap.Point(113.734446, 23.004592);//定义一个中心点坐标
+                var point = new BMap.Point(113.861552, 22.913958);//定义一个中心点坐标
                 map.centerAndZoom(point, 18);//设定地图的中心点和坐标并将地图显示在地图容器中
                 window.map = map;//将map变量存储在全局
             }
@@ -111,7 +111,7 @@
             }
 
             //标注点数组
-            var markerArr = [{ title: "广彩城", content: "我的备注", point: "113.734478|23.005049", isOpen: 0, icon: { w: 21, h: 21, l: 0, t: 0, x: 6, lb: 5 } }
+            var markerArr = [{ title: "东莞快装师", content: "东莞市大岭山镇金桔村华科城博士创业园1号楼220号", point: "113.862015|22.915048", isOpen: 0, icon: { w: 21, h: 21, l: 0, t: 0, x: 6, lb: 5 } }
             ];
             //创建marker
             function addMarker() {
@@ -163,7 +163,7 @@
             }
             //创建一个Icon
             function createIcon(json) {
-                var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w, json.h), { imageOffset: new BMap.Size(-json.l, -json.t), infoWindowOffset: new BMap.Size(json.lb + 5, 1), offset: new BMap.Size(json.x, json.h) })
+                var icon = new BMap.Icon("/images/pin.png", new BMap.Size(json.w, json.h), { imageOffset: new BMap.Size(-json.l, -json.t), infoWindowOffset: new BMap.Size(json.lb + 5, 1), offset: new BMap.Size(json.x, json.h) })
                 return icon;
             }
 
