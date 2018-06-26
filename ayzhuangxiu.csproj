@@ -518,6 +518,7 @@
     <Content Include="images\picshow.js" />
     <Content Include="images\picshow1.js" />
     <Content Include="images\picshow2.js" />
+    <Content Include="images\pin.png" />
     <Content Include="images\pj_bg.jpg" />
     <Content Include="images\progress_bar.png" />
     <Content Include="images\prot.jpg" />
