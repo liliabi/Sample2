@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace ayzhuangxiu.products.kozoso {
+namespace ayzhuangxiu.products.faencn {
     
     
     public partial class about {

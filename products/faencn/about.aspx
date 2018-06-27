@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="ayzhuangxiu.products.faencn.about" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="ayzhuangxiu.products.kozoso.about" %>
 
 <!DOCTYPE html>
 
@@ -32,7 +32,7 @@
             <div class="inside_dh">
                 <div class="swiper-container" style="width: 100%; height: 40px;">
                     <ul class="swiper-wrapper">
-                        <li class="swiper-slide"><a href="introduce.html?introID=52847" title="关于我们" class="hover">关于我们</a></li>
+                        <li class="swiper-slide"><a href="#" title="关于我们" class="hover">关于我们</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                 </p>
 
                 <p style="TEXT-ALIGN: center">
-                    <img style="FILTER: ; WIDTH: 1000px; HEIGHT: 223px" border="0" src="http://images02.cdn86.net/kps01/M00/E4/7C/wKiAiVeYGWfRkm2UAACh9MYMC9k685.jpg"></font></p>
+                    <img style="WIDTH: 1000px; HEIGHT: 223px" src="http://images02.cdn86.net/kps01/M00/E4/7C/wKiAiVeYGWfRkm2UAACh9MYMC9k685.jpg"></font></p>
                 <p style="TEXT-ALIGN: left; LINE-HEIGHT: 2; LETTER-SPACING: 3px">
                     <br />
                     <br />

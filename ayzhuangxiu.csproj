@@ -858,10 +858,16 @@
     <Content Include="products\faencn\about.aspx" />
     <Content Include="products\faencn\default.aspx" />
     <Content Include="products\faencn\style.css" />
+    <Content Include="products\haomen\about.aspx" />
+    <Content Include="products\haomen\default.aspx" />
+    <Content Include="products\haomen\style.css" />
     <Content Include="products\jycom\about.aspx" />
     <Content Include="products\jycom\default.aspx" />
     <Content Include="products\jycom\resetcommon.css" />
     <Content Include="products\jycom\Style.css" />
+    <Content Include="products\kozoso\about.aspx" />
+    <Content Include="products\kozoso\default.aspx" />
+    <Content Include="products\kozoso\style.css" />
     <Content Include="products\show.aspx" />
     <Content Include="products\wfcom\about.aspx" />
     <Content Include="products\wfcom\default.aspx" />
@@ -1605,6 +1611,20 @@
     <Compile Include="products\faencn\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="products\haomen\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\haomen\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\haomen\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\haomen\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="products\jycom\about.aspx.cs">
       <DependentUpon>about.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1617,6 +1637,20 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="products\jycom\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\kozoso\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\kozoso\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products\kozoso\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products\kozoso\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="products\show.aspx.cs">
