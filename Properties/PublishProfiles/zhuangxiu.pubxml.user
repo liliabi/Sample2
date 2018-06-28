@@ -18,10 +18,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="bin/ayzhuangxiu.dll">
-      <publishTime>06/26/2018 21:38:32</publishTime>
+      <publishTime>06/28/2018 23:27:52</publishTime>
     </File>
     <File Include="bin/ayzhuangxiu.pdb">
-      <publishTime>06/26/2018 21:38:32</publishTime>
+      <publishTime>06/28/2018 23:27:52</publishTime>
     </File>
     <File Include="bin/LitJSON.dll">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -66,7 +66,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="css/about_us.css">
-      <publishTime>06/25/2018 22:36:14</publishTime>
+      <publishTime>06/27/2018 21:19:15</publishTime>
     </File>
     <File Include="css/animate.min.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -147,7 +147,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="default.aspx">
-      <publishTime>06/25/2018 22:24:18</publishTime>
+      <publishTime>06/28/2018 23:25:38</publishTime>
     </File>
     <File Include="editor/kindeditor-all-min.js">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -1301,6 +1301,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="images/picshow6.js">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
+    <File Include="images/picshow7.js">
+      <publishTime>06/28/2018 23:20:35</publishTime>
+    </File>
+    <File Include="images/picshow8.js">
+      <publishTime>06/28/2018 23:20:50</publishTime>
+    </File>
+    <File Include="images/pin.png">
+      <publishTime>06/26/2018 21:20:06</publishTime>
+    </File>
     <File Include="images/pj_bg.jpg">
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
@@ -1443,7 +1452,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="images/whir_css.css">
-      <publishTime>06/26/2018 21:30:26</publishTime>
+      <publishTime>06/28/2018 23:25:11</publishTime>
     </File>
     <File Include="images/work.js">
       <publishTime>05/28/2018 07:55:38</publishTime>
@@ -1566,7 +1575,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="mydata/data.mdb">
-      <publishTime>06/26/2018 21:33:21</publishTime>
+      <publishTime>06/28/2018 23:10:09</publishTime>
     </File>
     <File Include="news/default.aspx">
       <publishTime>06/25/2018 22:31:16</publishTime>
@@ -2370,13 +2379,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/28/2018 07:55:38</publishTime>
     </File>
     <File Include="products/faencn/about.aspx">
-      <publishTime>06/25/2018 22:32:37</publishTime>
+      <publishTime>06/27/2018 22:35:36</publishTime>
     </File>
     <File Include="products/faencn/default.aspx">
       <publishTime>06/25/2018 22:32:37</publishTime>
     </File>
     <File Include="products/faencn/style.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
+    </File>
+    <File Include="products/haomen/about.aspx">
+      <publishTime>06/28/2018 22:06:11</publishTime>
+    </File>
+    <File Include="products/haomen/default.aspx">
+      <publishTime>06/28/2018 22:24:21</publishTime>
+    </File>
+    <File Include="products/haomen/style.css">
+      <publishTime>06/27/2018 22:12:32</publishTime>
     </File>
     <File Include="products/jycom/about.aspx">
       <publishTime>06/25/2018 22:32:37</publishTime>
@@ -2389,6 +2407,15 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="products/jycom/Style.css">
       <publishTime>05/28/2018 07:55:38</publishTime>
+    </File>
+    <File Include="products/kozoso/about.aspx">
+      <publishTime>06/27/2018 22:43:47</publishTime>
+    </File>
+    <File Include="products/kozoso/default.aspx">
+      <publishTime>06/28/2018 22:36:30</publishTime>
+    </File>
+    <File Include="products/kozoso/style.css">
+      <publishTime>06/27/2018 22:45:32</publishTime>
     </File>
     <File Include="products/show.aspx">
       <publishTime>06/25/2018 22:27:08</publishTime>
@@ -2813,6 +2840,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="upfile/guodaogui.jpg">
       <publishTime>06/13/2018 22:29:39</publishTime>
     </File>
+    <File Include="upfile/haomenmalan.png">
+      <publishTime>06/28/2018 21:54:49</publishTime>
+    </File>
+    <File Include="upfile/haomenmalanabout.png">
+      <publishTime>06/28/2018 21:55:08</publishTime>
+    </File>
     <File Include="upfile/haomiaocangqiong.jpg">
       <publishTime>06/13/2018 22:29:39</publishTime>
     </File>
@@ -2893,6 +2926,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="upfile/kaxibai.jpg">
       <publishTime>06/13/2018 22:32:33</publishTime>
+    </File>
+    <File Include="upfile/kozoso.png">
+      <publishTime>06/28/2018 22:09:48</publishTime>
+    </File>
+    <File Include="upfile/kozoso_about.jpg">
+      <publishTime>06/27/2018 22:03:48</publishTime>
     </File>
     <File Include="upfile/laluohui.jpg">
       <publishTime>06/13/2018 22:32:36</publishTime>
@@ -3009,7 +3048,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/13/2018 22:33:59</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/26/2018 21:39:02</publishTime>
+      <publishTime>06/28/2018 23:27:55</publishTime>
     </File>
   </ItemGroup>
 </Project>

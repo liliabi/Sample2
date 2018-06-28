@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using Kuaizhuang;
-using System.Text;
 using System.Data;
+using System.Text;
+using System.Web.UI.WebControls;
 
 namespace ayzhuangxiu.products.kozoso
 {
@@ -33,10 +28,10 @@ namespace ayzhuangxiu.products.kozoso
         {
             StringBuilder result = new StringBuilder();
             result.Clear();
-            string tsql = "select t.* from ay_prodclass t where bParent=17 or bParent in (select bId from ay_prodclass where bParent=17) order by t.bAddTime";
+            string tsql = "select t.* from ay_prodclass t where bParent=222 or bParent in (select bId from ay_prodclass where bParent=222) order by t.bAddTime";
             DataSet ds = PaducnSoft.DBUtility.DbHelperOleDb.Query(tsql);
 
-            DataRow[] drsRoot = ds.Tables[0].Select("bParent=17", "bOrder");
+            DataRow[] drsRoot = ds.Tables[0].Select("bParent=222", "bOrder");
             foreach (DataRow drRoot in drsRoot)
             {
                 result.AppendLine("<li><a href=\"./?id=" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bId"]) + "\" title=\"" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bName"]) + "\">" + PaducnSoft.Common.StringPlus.NullToString(drRoot["bName"]) + "</a>");
@@ -68,8 +63,8 @@ namespace ayzhuangxiu.products.kozoso
             {
                 classid = PaducnSoft.Common.Utils.NullToString(Request.QueryString["id"]);
             }
-
-            string sql = "select a.* from ay_products_v a where (a.bClassID in (select bId from ay_prodclass where bParent=17) or a.bParentID in (select bId from ay_prodclass where bParent=17)) ";
+            
+            string sql = "select a.* from ay_products_v a where (a.bClassID in (select bId from ay_prodclass where bParent=222) or a.bParentID in (select bId from ay_prodclass where bParent=222)) ";
             if (classid != "")
             {
                 sql += " and (a.bClassID=" + classid + " or a.bParentID=" + classid + ")";

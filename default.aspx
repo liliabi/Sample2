@@ -18,6 +18,8 @@
     <script src="images/picshow4.js" type="text/javascript"></script>
     <script src="images/picshow5.js" type="text/javascript"></script>
     <script src="images/picshow6.js" type="text/javascript"></script>
+    <script src="images/picshow7.js" type="text/javascript"></script>
+    <script src="images/picshow8.js" type="text/javascript"></script>
     <!--[if IE 6]>
 <script type="text/javascript" src="script/iepng.js"></script>
 <script type="text/javascript"> 
@@ -81,6 +83,8 @@ EvPNG.fix('img,#header,.topnav,'); </script>
                     <li><a href="products/arrcom/about.aspx">箭牌衣柜</a></li>
                     <li><a href="products/wfcom/about.aspx">万峰石材</a></li>
                     <li><a href="products/jycom/about.aspx">聚佑佳皮雕</a></li>
+                    <li><a href="products/haomen/about.aspx">豪门玛兰家具</a></li>
+                    <li><a href="products/kozoso/about.aspx">块装师护墙板</a></li>
                 </ul>
             </div>
         </div>
@@ -96,6 +100,8 @@ EvPNG.fix('img,#header,.topnav,'); </script>
                 <h1 id="one4" onclick="setTab('one',4,6)">箭牌衣柜</h1>
                 <h1 id="one5" onclick="setTab('one',5,6)">万峰石材</h1>
                 <h1 id="one6" onclick="setTab('one',6,6)">聚佑佳皮雕</h1>
+                <h1 id="one7" onclick="setTab('one',7,6)">豪门玛兰家具</h1>
+                <h1 id="one8" onclick="setTab('one',8,6)">块装师护墙板</h1>
             </div>
             <div class="proscroll" id="con_one_1">
                 <asp:Literal ID="ltprod1" runat="server"></asp:Literal>

@@ -518,6 +518,8 @@
     <Content Include="images\picshow.js" />
     <Content Include="images\picshow1.js" />
     <Content Include="images\picshow2.js" />
+    <Content Include="images\picshow7.js" />
+    <Content Include="images\picshow8.js" />
     <Content Include="images\pin.png" />
     <Content Include="images\pj_bg.jpg" />
     <Content Include="images\progress_bar.png" />
@@ -1006,6 +1008,8 @@
     <Content Include="upfile\geduangui.jpg" />
     <Content Include="upfile\gongchenganli.jpg" />
     <Content Include="upfile\guodaogui.jpg" />
+    <Content Include="upfile\haomenmalan.png" />
+    <Content Include="upfile\haomenmalanabout.png" />
     <Content Include="upfile\haomiaocangqiong.jpg" />
     <Content Include="upfile\houdezaiwu.jpg" />
     <Content Include="upfile\huaquezhaoxi.jpg" />
@@ -1033,6 +1037,8 @@
     <Content Include="upfile\jz_case_ico04.gif" />
     <Content Include="upfile\jz_case_ico05.gif" />
     <Content Include="upfile\kaxibai.jpg" />
+    <Content Include="upfile\kozoso.png" />
+    <Content Include="upfile\kozoso_about.jpg" />
     <Content Include="upfile\laluohui.jpg" />
     <Content Include="upfile\lantinghui.jpg" />
     <Content Include="upfile\luokekebianzouqu.jpg" />
