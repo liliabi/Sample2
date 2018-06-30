@@ -48,10 +48,10 @@ namespace Kuaizhuang
             sb.AppendLine("                <div class=\"conn_box\">");
             sb.AppendLine("                    <div class=\"conn_rr\">");
             sb.AppendLine("                        <div class=\"conn_code\">");
-            sb.AppendLine("                            <div style=\"padding-left:15px;\"><span>");
-            sb.AppendLine("                                微信公众号");
-            sb.AppendLine("                            </span></div>");
-            sb.AppendLine("                            <div><img src=\"images/wx.png\" title=\"官方微信\" alt=\"官方微信\" style=\"width:200px;\" /></div>   ");
+            //sb.AppendLine("                            <div style=\"padding-left:15px;\"><span>");
+            //sb.AppendLine("                                微信公众号");
+            //sb.AppendLine("                            </span></div>");
+            sb.AppendLine("                            <div><img src=\"images/wx.png\" title=\"官方微信\" alt=\"官方微信\" style=\"width:200px;padding-top:40px\" /></div>   ");
             sb.AppendLine("                        </div>                    ");
             sb.AppendLine("                    </div>");
 

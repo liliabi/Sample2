@@ -15,10 +15,12 @@
 <body>
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
-        <div class="bannerbox">
-            <a class="banner">
-                <img src="/upfile/jianpaiyiguiabout.jpg" />
-            </a>
+        <div class="inside_banner">
+            <div class="touchslider touchslider-demo">
+                <div>
+                    <img src="/upfile/jianpaiyiguiabout.jpg" alt="" style="width: 1349px;">
+                </div>
+            </div>     
         </div>
         <div class="main-box">
             <div class="page-r main-r">

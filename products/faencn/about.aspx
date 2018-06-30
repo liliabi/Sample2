@@ -15,18 +15,25 @@
 <body>
     <form id="form1" runat="server">
         <asp:Literal ID="ltHeader" runat="server"></asp:Literal>
-        <div class="inside_banner">
+        <%--<div class="inside_banner">
             <div class="clear"></div>
             <div class="touchslider touchslider-demo">
                 <div id="tempDiv" class="touchslider-viewport" style="overflow: hidden; position: relative; height: 517.815px;">
                     <div style="width: 100000px; position: absolute; left: 0px; height: 21px;">
-                        <div class="touchslider-item" style="background: url(&quot;/kps01/M00/1B/70/wKiAiVjAz66MtN4yAAdBe1wQCGQ080.jpg&quot;) center center no-repeat; position: absolute; left: 0px;">
+                        <div class="touchslider-item" style="background: url(/upfile/faen1zacnabout.jpg) center center no-repeat; position: absolute; left: 0px;">
                             <img src="/upfile/faenzacnabout.jpg" alt="男模场景图" style="width: 1349px;">
                         </div>
                     </div>
                 </div>
             </div>
           
+        </div>--%>
+         <div class="inside_banner">
+            <div class="touchslider touchslider-demo">
+                <div>
+                    <img src="/upfile/faenzacnabout.jpg" alt="" style="width: 1349px;">
+                </div>
+            </div>     
         </div>
         <div class="container">
             <div class="inside_dh">
