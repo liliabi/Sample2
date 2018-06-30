@@ -73,7 +73,7 @@
 
 .conn_box{background:#fff; height:250px; padding:20px; margin:0 auto; width:1160px;}
 .conn_rr{float:right; width:500px;}
-.conn_ll{float:left; width:400px; font-size:14px; margin-left:200px;}
+.conn_ll{float:left; width:400px; font-size:14px; margin-left:200px; padding-top: 50px;}
 .conn_ll h2{font-size:28px;color:#333; margin-bottom:15px; font-weight:normal}
 .conn_ll .conn_address{ padding-left:30px; line-height:30px; margin:4px 0 0; background:url(../images/conn_dot01.png) left 9px no-repeat; }
 .conn_ll .conn_tel{padding-left:30px; line-height:30px; margin:4px 0 0; background:url(../images/conn_dot02.png) left 9px no-repeat; }

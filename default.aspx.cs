@@ -35,6 +35,8 @@ namespace ayzhuangxiu
                 this.ltprod4.Text = this.LoadProductList(4, "35", "products/arrcom/");
                 this.ltprod5.Text = this.LoadProductList(5, "50", "products/wfcom/");
                 this.ltprod6.Text = this.LoadProductList(6, "71", "products/jycom/");
+                this.ltprod7.Text = this.LoadProductList(7, "71", "products/haomen/");
+                this.ltprod8.Text = this.LoadProductList(8, "71", "products/kozoso/");
            
         }
 

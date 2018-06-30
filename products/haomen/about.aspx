@@ -27,7 +27,7 @@
             <div class="inside_dh">
                 <div class="swiper-container espcms_page_typename" style="width: 100%; height: 40px;">
                     <ul class="swiper-wrapper">
-                        <li class="swiper-slide">豪门玛兰家具</li>
+                        <li class="swiper-slide"></li>
                     </ul>
                 </div>
             </div>

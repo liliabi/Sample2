@@ -153,6 +153,22 @@ EvPNG.fix('img,#header,.topnav,'); </script>
     //-->
                 </script>
             </div>
+            <div class="proscroll" id="con_one_7" style="display: none">
+                <asp:Literal ID="ltprod7" runat="server"></asp:Literal>
+                <script type="text/javascript">
+                    <!--
+    picrun_ini7()
+    //-->
+                </script>
+            </div>
+            <div class="proscroll" id="con_one_8" style="display: none">
+                <asp:Literal ID="ltprod8" runat="server"></asp:Literal>
+                <script type="text/javascript">
+                    <!--
+    picrun_ini8()
+    //-->
+                </script>
+            </div>
         </div>
         <!--新闻资讯-->
         <div class="news">
